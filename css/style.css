@@ -912,15 +912,26 @@ label {
 /*PÁGINA MI PERFIL*/
 
 #miPerfil {
-    display: block;
+    display: grid;
     padding: 30px;
     background-color: rgb(248, 232, 243);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.01fr 0.2fr 0.2fr 0.1fr;
+    grid-template-areas: 
+    "header header header"
+    "perfil perfil perfil"
+    "misLabiales misLabiales misLabiales"
+    "footer footer footer"
 }
 
 #miPerfil h1 {
     color: grey;
     font-size: x-large;
     margin-bottom: 20px;
+}
+
+.perfil{
+    grid-area: perfil;
 }
 
 .perfil img {
@@ -973,6 +984,7 @@ label {
     border-width: 3px 0px 0px 0px;
     margin-top: 20px;
     padding-top: 30px;
+    grid-area: misLabiales;
 }
 
 .labialesImg {
