@@ -932,50 +932,35 @@ label {
 
 .perfil{
     grid-area: perfil;
+    display: grid;
+    grid-template-columns: 0.3fr 0.3fr 0.3fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "perfilImg perfilTexto perfilTexto";
 }
 
 .perfil img {
     width: 280px;
-    padding-right: 67px;
+    padding-right: 55px;
     border-color: white;
     border-style: solid;
     border-width: 0px 3px 0px 0px;
+    display: flex;
+    grid-area: perfilImg;
 }
 
-.perfil p {
+.perfil h3 {
     color: grey;
     border-color: grey;
     border-style: solid;
     border-width: 0px 0px 1px 0px;
+    display: flex;
+    flex-direction: column;
+    grid-area: perfilTexto;
+    justify-content: center;
+    line-height: 20px;
 }
 
-.nombre{
-    display: inline-block;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    border-color: grey;
-    border-style: solid;
-    border-width: 0px 0px 1px 0px;
-}
 
-.correo {
-    display: inline-block;
-    margin-left: 375px;
-    margin-right: 450px;
-    margin-bottom: 20px;
-    border-color: grey;
-    border-style: solid;
-    border-width: 0px 0px 1px 0px;
-}
-
-.tel {
-    display: inline-block;
-    margin-bottom: 20px;
-    margin-left: 375px;
-    border-color: grey;
-    border-style: solid;
-    border-width: 0px 0px 1px 0px;
-}
 
 
 .labiales {
