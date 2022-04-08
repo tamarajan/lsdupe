@@ -1002,7 +1002,6 @@ label {
 
 
 
-
 @media screen and (max-width:768px) {
     #index{
         grid-template-columns: 0.5fr 0.5fr 0.5fr;
