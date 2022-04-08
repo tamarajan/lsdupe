@@ -928,14 +928,17 @@ label {
     color: grey;
     font-size: x-large;
     margin-bottom: 20px;
+    grid-area: titulo;
 }
 
 .perfil{
     grid-area: perfil;
     display: grid;
     grid-template-columns: 0.3fr 0.3fr 0.3fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "perfilImg perfilTexto perfilTexto";
+    grid-template-rows: 0.3fr 1fr;
+    grid-template-areas: 
+    "titulo titulo titulo"
+    "perfilImg perfilTexto perfilTexto";
 }
 
 .perfil img {
@@ -953,12 +956,19 @@ label {
     border-color: grey;
     border-style: solid;
     border-width: 0px 0px 1px 0px;
+    grid-area: perfilTexto;
+    font-size: large;
     display: flex;
     flex-direction: column;
-    grid-area: perfilTexto;
-    justify-content: center;
-    line-height: 20px;
+    align-content:flex-end;
 }
+
+.datosPerfil  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 
 
 
@@ -968,18 +978,24 @@ label {
     border-style: solid;
     border-width: 3px 0px 0px 0px;
     margin-top: 20px;
-    padding-top: 30px;
+    padding-top: 20px;
     grid-area: misLabiales;
+    display: grid;
+    grid-template-columns: 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr;
+    grid-template-rows: 0.3fr 1fr;
+    grid-template-areas: 
+    "titulo titulo titulo titulo titulo titulo"
+    "labiales labiales labiales labiales labiales labiales";
 }
 
 .labialesImg {
-    display: inline;
+    grid-area: labiales;
+    display: flex;
+    justify-content: space-between;
 }
 
 .labialesImg img {
-    width: 250px;
-    padding-bottom: 50px;
-    padding-top: 10px;
+    width: 205px;
 }
 
 
