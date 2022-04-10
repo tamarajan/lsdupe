@@ -772,8 +772,7 @@ footer img {
 /*PÁGINA TÉRMINOS Y CONDICIONES*/
 
 #tyc {
-    background: rgb(235,226,226);
-    background: linear-gradient(180deg, rgba(235,226,226) 0%, rgba(247,162,219) 100%);
+    background-color: rgb(235, 226, 226);
     padding: 35px;
 }
 
