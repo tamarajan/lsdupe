@@ -4,36 +4,22 @@
     font-family: 'Raleway', sans-serif;
 }
 
-#index {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.01fr 0.3fr 0.2fr 0.3fr 0.1fr;
-    grid-template-areas: 
-    "header header header"
-    "portada portada portada"
-    "nosotros nosotros nosotros"
-    "buscador buscador buscador"
-    "footer footer footer"
-    ;
-}
 
-#header {
+.header {
     background-color: rgba(221, 214, 215);
     color: antiquewhite;
-    position: sticky;
+    position: fixed;
     top: 0;
     box-shadow: 0px 0px 0px 3px rgba(53, 51, 51, 0.19);
-    grid-area: header;
     align-items: start;
-    display: flex;
-    align-items: center;
 }
 
 
-#header img {
+.header img {
     margin: 25px;
-    width: 15%;
-    align-self: start;
+    width: 10%;
+    display: flex;
+    justify-content: left;
 }
 
 
@@ -42,7 +28,7 @@
     list-style-type: none;
     display: flex;
     padding: 25px;
-    margin-left: 520px;
+    justify-content: right;
 }
 
 
@@ -69,39 +55,24 @@
     display: none;
 }
 
-.portada {
-    grid-area: portada;
-}
 
-.portada img {
-    width: 100%;
-    height: 100%;
-}
 
 
 .nosotros {
     background-color: rgb(248, 232, 243);
-    grid-area: nosotros;
-    display: grid;
-    grid-template-columns: 0.6fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-    "nosotrosimg nosotrostext";
-    justify-content: space-around;
+
 }
 
 .nosotrosText {
     text-align: right;
     font-weight: 600;
-    font-size:x-large;
+    font-size: x-large;
     padding-right: 25px;
     line-height: 60px;
     align-self: center;
-    grid-area: nosotrostext;
 }
 
 .nosotrosImg {
-    width: 80%;
     padding: 25px;
     border-right: 3px;
     border-bottom: 0;
@@ -111,12 +82,8 @@
     border-color: rgb(252, 250, 250);
     margin-top: 30px;
     margin-bottom: 30px;
-    grid-area: nosotrosimg;
 }
 
-#buscar {
-    grid-area: buscador;
-}
 
 .card {
     background-color: rgb(250, 219, 224);
@@ -141,32 +108,13 @@
 }
 
 
-.buscadorTono {
-    grid-area: buscadortono;
-    
-}
 
-.buscadorMarca {
-    grid-area: buscadormarca;
-}
-
-.buscadorForm {
-    grid-area: buscadorform;
-}
 
 .card a:hover {
     opacity: 0.5;
     color: rgb(177, 162, 165);
 }
 
-#footer {
-    grid-area: footer;
-    display: grid;
-    grid-template-columns: 0.5fr 0.5fr 0.5fr;
-    grid-template-rows: 0.3fr;
-    grid-template-areas: 
-    "footercopy footerrrss footermenu";
-}
 
 footer {
     padding: 20px;
@@ -187,7 +135,6 @@ footer {
     border-left: 2px;
     border-style: solid;
     border-color: rgb(252, 250, 250);
-    grid-area: footerrrss;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -211,10 +158,9 @@ footer {
 
 
 .footerMenu {
-    grid-area: footermenu;
     display: flex;
     flex-direction: column;
-    padding-left: 20%;
+    padding-left: 10%;
 }
 
 footer ul {
@@ -247,7 +193,6 @@ footer img {
 }
 
 .footerCopy {
-    grid-area: footercopy;
     display: flex;
     flex-direction: column;
     align-items: center;
