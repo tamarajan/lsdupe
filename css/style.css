@@ -1733,5 +1733,54 @@ label {
         width: 25%;
     }
 
+    
+    .rrss {
+        border-right: 0;
+        border-bottom: 2px;
+        border-top: 2px;
+        border-left: 0;
+        align-items: center;
+        padding: 20px;
+    }
+
+
+    .rrssImg a img {
+        width: 50%;
+    }
+    
+    .rrss h4{
+        color: grey;
+        font-weight: 300;
+        text-align: center;
+        font-size: small;
+        padding: 0;
+    }
+    
+    
+    
+    footer ul {
+        text-align: center;
+    }
+    
+    footer ul a{
+        font-weight: 300;
+        text-align: center;
+        font-size: x-small;
+    }
+    
+    
+    footer p {
+        color: grey;
+        font-size: x-small;
+        font-style: italic;
+        margin-bottom: 20px;
+    }
+    
+    footer img {
+        width: 35px;
+        height: auto;
+    }
+    
+
 
 }
