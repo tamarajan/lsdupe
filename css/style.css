@@ -1762,20 +1762,20 @@ label {
         border-bottom: 2px;
         border-top: 2px;
         border-left: 0;
+        border-style: solid;
         align-items: center;
-        padding: 20px;
+        padding: 15px;
     }
 
 
     .rrssImg a img {
-        width: 25%;
+        width: 15%;
     }
     
     .rrss h4 {
-        color: grey;
-        font-weight: 300;
+        font-weight: 400;
         text-align: center;
-        font-size: small;
+        font-size: medium;
         padding: 0;
     }
     
@@ -1788,7 +1788,7 @@ label {
     footer ul a{
         font-weight: 300;
         text-align: center;
-        font-size: x-small;
+        font-size: small;
     }
     
     
@@ -1800,7 +1800,7 @@ label {
     }
     
     footer img {
-        width: 35px;
+        width: 45px;
         height: auto;
     }
     
