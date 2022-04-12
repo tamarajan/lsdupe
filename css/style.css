@@ -1619,13 +1619,21 @@ footer img {
 
 @media screen and (max-width:768px) {
 
+
+    .listaMenu {
+        justify-content:flex-end
+    }
+    
+    
+
     .nosotrosText {
         font-weight: 500;
         padding-right: 15px;
-        line-height: 40px;
+        line-height: 30px;
     }
     
     .nosotrosImg {
+        width: 50%;
         height: auto;
         padding: 15px;
         margin-top: 15px;
