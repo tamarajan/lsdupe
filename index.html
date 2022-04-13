@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,77 +10,93 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>LSDupe - Home</title>
 </head>
+
 <body class="container-fluid">
-    <header class="row header">
-        <div class="col-lg-3 col-md-4 col-sm-6 headerImg">
-            <a href="./index.html"><img src="./images/logo.png" alt="Logo"></a>
-        </div>
-            <ul class="col-lg-9 col-md-8 col-sm-6 listaMenu">
-                <li><a href="#buscar">Encontrar mi labial</a></li>
-                <li><a href="./pages/perfil.html">Mi perfil</a></li>
-            </ul>
-
-
-        <div class="col-lg-6 col-md-6 col-sm-6 icons">
-                <a href="#buscar"><img src="./images/buscar-icon.png" alt="Encontrar mi labial"></a>
-                <a href="./pages/perfil.html"><img src="./images/perfil.png" alt="Mi perfil"></a>
-        </div>
-
+    <header class="row">
+        <nav class="navbar navbar-expand-lg navbar-light header">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img src="./images/logo.png" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse listaMenu" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#buscar">Encontrar mi labial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/perfil.html">Mi perfil</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <div class="row portada">
         <div class="col-12 portadaImg">
-        <img src="./images/portada.jpg" alt="Encontrá el labial perfecto para vos">
+            <img src="./images/portada.jpg" alt="Encontrá el labial perfecto para vos">
         </div>
     </div>
     <div class="row nosotros">
-            <img src="./images/nosotros.png" alt="Nuestro algoritmo patentado" class="col-lg-6 col-md-6 col-sm-12 nosotrosImg animate__animated animate__backInLeft">
-            <p class="col-lg-6 col-md-6 col-sm-12 nosotrosText animate__animated animate__backInRight">LSDupe utiliza datos de más de 46 millones de usuarios de labiales en todo el mundo y un sofisticado  algoritmo patentado para que puedas encontrar el tono de labial que querés en marcas de todas las gamas de precios y acabados posibles.</p>
+        <img src="./images/nosotros.png" alt="Nuestro algoritmo patentado"
+            class="col-lg-6 col-md-6 col-sm-12 nosotrosImg animate__animated animate__backInLeft">
+        <p class="col-lg-6 col-md-6 col-sm-12 nosotrosText animate__animated animate__backInRight">LSDupe utiliza datos
+            de más de 46 millones de usuarios de labiales en todo el mundo y un sofisticado algoritmo patentado para que
+            puedas encontrar el tono de labial que querés en marcas de todas las gamas de precios y acabados posibles.
+        </p>
     </div>
+    <div id="buscar"></div>
     <div class="row buscar">
-		<div class="card">
+        <div class="card">
             <div class="col-lg-4 col-md-4 col-sm-12 buscadorTono">
-            <a href="./pages/tono.html">
-                <img src="./images/tono.jpg" alt="Buscar por tono">
+                <a href="./pages/tono.html">
+                    <img src="./images/tono.jpg" alt="Buscar por tono">
                     <div class="cardText">Buscar por tono
                     </div>
-            </a>
+                </a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 buscadorMarca">
-            <a href="./pages/marca.html">
-                <img src="./images/marca.jpg" alt="Buscar por marca">
+                <a href="./pages/marca.html">
+                    <img src="./images/marca.jpg" alt="Buscar por marca">
                     <div class="cardText">Buscar por marca
                     </div>
-            </a>      
+                </a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 buscadorForm">
-            <a href="./pages/formatoyacabado.html">
-                <img src="./images/acabados.jpg" alt="Buscar por formato y acabado">
+                <a href="./pages/formatoyacabado.html">
+                    <img src="./images/acabados.jpg" alt="Buscar por formato y acabado">
                     <div class="cardText">Buscar por formato y acabado
                     </div>
-            </a>
-            </div>  
-                </div>
-            
-	</div>
+                </a>
+            </div>
+        </div>
+
+    </div>
 
 
     <footer class="row footer">
         <div class="col-lg-4 col-md-4 col-sm-12 footerCopy">
-        <a href= "./index.html"><img src="./images/logo.png" alt="Logo"></a>
-        <p>© 2022 LSDupe.com</p>
+            <a href="./index.html"><img src="./images/logo.png" alt="Logo"></a>
+            <p>© 2022 LSDupe.com</p>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-12 rrss">
             <h4>¡Seguinos en nuestras redes sociales!</h4>
             <div class="rrssImg">
-            <a href="http://https://www.facebook.com/LSDupe" target="_blank"><img src="./images/FB.svg" alt="Facebook"></a>
-            <a href="https://www.instagram.com/LSDupe" target="_blank"><img src="./images/IG.svg" alt="Instagram"></a>
-            <a href="https://ar.pinterest.com/LSDupe" target="_blank"><img src="./images/PT.svg" alt="Pinterest"></a>
-            <a href="https://www.youtube.com/LSDupe" target="_blank"><img src="./images/YT.svg" alt="YouTube"></a>
+                <a href="http://https://www.facebook.com/LSDupe" target="_blank"><img src="./images/FB.svg"
+                        alt="Facebook"></a>
+                <a href="https://www.instagram.com/LSDupe" target="_blank"><img src="./images/IG.svg"
+                        alt="Instagram"></a>
+                <a href="https://ar.pinterest.com/LSDupe" target="_blank"><img src="./images/PT.svg"
+                        alt="Pinterest"></a>
+                <a href="https://www.youtube.com/LSDupe" target="_blank"><img src="./images/YT.svg" alt="YouTube"></a>
             </div>
         </div>
         <ul class="col-lg-4 col-md-4 col-sm-12 footerMenu">
@@ -91,8 +108,9 @@
             <li><a href="./pages/tyc.html">Términos y Condiciones</a></li>
             <li><a href="./pages/contacto.html">Contacto</a></li>
         </ul>
-        </footer>
+    </footer>
 
     <script src="./js/bootstrap.min.js"></script>
 </body>
+
 </html>

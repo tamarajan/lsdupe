@@ -5,7 +5,7 @@
 }
 
 
-.header {
+header {
     background-color: rgba(221, 214, 215);
     color: antiquewhite;
     position: sticky;
@@ -15,47 +15,27 @@
     align-items: start;
 }
 
-
-.headerImg img{
+.navbar-brand {
+    width: 150px;
+}
+.header img{
     margin: 25px;
-    width: 30%;
+    width: 50%;
     display: flex;
     justify-content: left;
 }
 
 
-
-.listaMenu {
+#navbarText .nav-link {
     list-style-type: none;
-    display: flex;
     padding: 25px;
-    justify-content: right;
     margin-top: 25px;
-}
-
-
-.listaMenu li a {
     color: rgb(231, 173, 184);
     font-weight: 600;
     margin-right: 15px;
-    text-decoration: none;
-    text-align: center;
 }
 
-.listaMenu li a:hover {
-    border-color: white;
-    border-style: solid;
-    border-top: 2px;
-    border-right: 2px;
-    border-left: 2px;
-    padding-bottom: 10px;
-    color: white;
-    font-weight: 600;
-}
 
-.icons a img {
-    display: none;
-}
 
 .portadaImg img {
     width: 100%;
@@ -1619,12 +1599,11 @@ footer img {
 
 @media screen and (max-width:768px) {
 
-
-    .listaMenu {
-        justify-content: flex-end;
+    #navbarText .nav-item {
+        padding: 5px;
+        font-weight: 500;
+        font-size: medium;
     }
-    
-    
 
     .nosotrosText {
         font-weight: 500;
@@ -1690,28 +1669,17 @@ footer img {
 @media screen and (max-width:480px) {
 
 
-    .headerImg img{
+    .navbar-brand img{
         margin: 5px;
-        width: 15%;
+        width: 25%;
     }
 
-
-    .icons {
-        display: flex;
-        flex-direction: row;
-        justify-content: right;
-        align-items:flex-end;
-    }
-
-    .icons a img{
-        padding: 10px;
-        width: 35px;
-        height: auto;
-        display: flex;
-    }
-    
-    .listaMenu {
-        display: none;
+    #navbarText .nav-link {
+        padding: 5px;
+        justify-content: left; 
+        margin-top: 5px;
+        font-weight: 500;
+        font-size: small;
     }
 
     .nosotros {
