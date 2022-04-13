@@ -193,77 +193,7 @@ footer img {
 
 
 
-/*PÁGINA TONO
-
-.cabeceraTono {
-    display: inline;
-    background-color: rgb(248, 220, 239);
-}
-
-.imagenCarga {
-    background-image: url(../images/subir-img.jpg);
-    width: 672px;
-    height: 472px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: inline-block;
-}
-
-.imagenCarga:hover{
-    opacity: 0.8;
-}
-
-.imagenCarga a{
-    text-decoration: none;
-    color: white;
-    text-align: center;
-    font-size: xx-large;
-}
-
-.imagenCarga h3:hover{
-    color: white;
-    background-color: grey;
-    opacity: 0.8;
-}
-
-.imagenCarga a h3{
-    margin-top: 140px;
-    padding: 50px;
-}
-
-.imagenRueda {
-    background-image: url(../images/rueda-img.jpg);
-    width: 672px;
-    height: 472px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: inline-block;
-}
-
-.imagenRueda:hover{
-    opacity: 0.8;
-}
-
-.imagenRueda a{
-    text-decoration: none;
-    color: white;
-    text-align: center;
-    font-size: xx-large;
-}
-
-.imagenRueda a h3{
-    margin-top: 140px;
-    padding: 50px;
-}
-
-.imagenRueda h3:hover{
-    color: white;
-    background-color: grey;
-    opacity: 0.8;
-}
-*/
+/*PÁGINA TONO*/
 
 #tono {
     display: grid;
@@ -813,44 +743,25 @@ footer img {
 
 /*PÁGINA MI PERFIL*/
 
-#miPerfil {
-    display: grid;
+.miPerfil {
     padding: 30px;
     background-color: rgb(248, 232, 243);
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.01fr 0.2fr 0.2fr 0.1fr;
-    grid-template-areas: 
-    "header header header"
-    "perfil perfil perfil"
-    "misLabiales misLabiales misLabiales"
-    "footer footer footer"
 }
 
-#miPerfil h1 {
+.miPerfil h1 {
     color: grey;
     font-size: x-large;
     margin-bottom: 20px;
-    grid-area: titulo;
 }
 
-.perfil{
-    grid-area: perfil;
-    display: grid;
-    grid-template-columns: 0.3fr 0.3fr 0.3fr;
-    grid-template-rows: 0.3fr 1fr;
-    grid-template-areas: 
-    "titulo titulo titulo"
-    "perfilImg perfilTexto perfilTexto";
+.miPerfil h5 {
+    color: grey;
+    font-size: large;
+    margin-bottom: 20px;
 }
 
 .perfil img {
     width: 280px;
-    padding-right: 55px;
-    border-color: white;
-    border-style: solid;
-    border-width: 0px 3px 0px 0px;
-    display: flex;
-    grid-area: perfilImg;
 }
 
 .perfil h3 {
@@ -858,22 +769,25 @@ footer img {
     border-color: grey;
     border-style: solid;
     border-width: 0px 0px 1px 0px;
-    grid-area: perfilTexto;
     font-size: large;
     display: flex;
     flex-direction: column;
     align-content:flex-end;
 }
 
-.datosPerfil  {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.list-group-flush {
+    background-color: rgb(248, 232, 243);
 }
 
+.list-group-item {
+    background-color: rgb(248, 232, 243);
+    margin-left: 20px;
+    padding-top: 23px;
+}
 
-
-
+.card {
+    background-color: rgb(248, 232, 243);
+}
 
 .labiales {
     border-color: white;
@@ -881,17 +795,9 @@ footer img {
     border-width: 3px 0px 0px 0px;
     margin-top: 20px;
     padding-top: 20px;
-    grid-area: misLabiales;
-    display: grid;
-    grid-template-columns: 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr;
-    grid-template-rows: 0.3fr 1fr;
-    grid-template-areas: 
-    "titulo titulo titulo titulo titulo titulo"
-    "labiales labiales labiales labiales labiales labiales";
 }
 
 .labialesImg {
-    grid-area: labiales;
     display: flex;
     justify-content: space-between;
 }

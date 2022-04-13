@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,10 +10,13 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>LSDupe - Mi Perfil</title>
 </head>
+
 <body>
     <header class="row">
         <nav class="navbar navbar-expand-lg navbar-light header">
@@ -36,56 +40,105 @@
         </nav>
     </header>
 
-    <div id="miPerfil">
-        <div class="perfil">
-            <h1>Mi Perfil</h1>
-            <img src="../images/profile.jpg" alt="Foto de perfil">
-            <div class="datosPerfil">
-            <h3>Nombre y Apellido: XXXXXXXX XXXXXXX</h3>
-            <h3>Correo electrónico: xxxxxx@xxxx.com</h3>
-            <h3>Teléfono: 00 0 00 000 0000</h3>
-            </div>
+    <div class="row miPerfil">
+        <h1>Mi Perfil</h1>
+        <div class="card perfil">
+            <img src="../images/profile.jpg" class="card-img-top" alt="Foto de perfil">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Nombre y Apellido: XXXXXXXX XXXXXXX</li>
+                <li class="list-group-item">Correo electrónico: xxxxxx@xxxx.com</li>
+                <li class="list-group-item">Teléfono: 00 0 00 000 0000</li>
+            </ul>
         </div>
+
         <div class="labiales">
-        <h1>Mis Labiales</h1>
-        <div class="labialesImg animate__animated animate__fadeIn">
-            <a href="#"><img src="../images/thumb1.jpg" alt="Mi Labial 1"></a>
-            <a href="#"><img src="../images/thumb2.jpg" alt="Mi Labial 2"></a>
-            <a href="#"><img src="../images/thumb3.jpg" alt="Mi Labial 3"></a>
-            <a href="#"><img src="../images/thumb4.jpg" alt="Mi Labial 4"></a>
-            <a href="#"><img src="../images/thumb5.jpg" alt="Mi Labial 5"></a>
-            <a href="#"><img src="../images/thumb6.jpg" alt="Mi Labial 6"></a>
-        </div>
+            <h1>Mis Labiales</h1>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4 labialesImg animate__animated animate__fadeIn">
+                <div class="col">
+                    <div class="card">
+                        <img src="../images/thumb1.jpg" class="card-img-top" alt="Mi Labial 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Mi Labial 1</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="../images/thumb2.jpg" class="card-img-top" alt="Mi Labial 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Mi Labial 2</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="../images/thumb3.jpg" class="card-img-top" alt="Mi Labial 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Mi Labial 3</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="../images/thumb4.jpg" class="card-img-top" alt="Mi Labial 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Mi Labial 4</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="../images/thumb5.jpg" class="card-img-top" alt="Mi Labial 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Mi Labial 5</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="../images/thumb6.jpg" class="card-img-top" alt="Mi Labial 6">
+                        <div class="card-body">
+                            <h5 class="card-title">Mi Labial 6</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
 
-    <footer id="footer">
-        <div class="footerCopy">
-            <a href= "../index.html"><img src="../images/logo.png" alt="Logo"></a>
+    <footer class="row footer">
+        <div class="col-lg-4 col-md-4 col-sm-12 footerCopy">
+            <a href="../index.html"><img src="../images/logo.png" alt="Logo"></a>
             <p>© 2022 LSDupe.com</p>
-            </div>
-            <div class="rrss">
-                <h4>¡Seguinos en nuestras redes sociales!</h4>
-                <div class="rrssImg">
-                <a href="http://https://www.facebook.com/LSDupe" target="_blank"><img src="../images/FB.svg" alt="Facebook"></a>
-                <a href="https://www.instagram.com/LSDupe" target="_blank"><img src="../images/IG.svg" alt="Instagram"></a>
-                <a href="https://ar.pinterest.com/LSDupe" target="_blank"><img src="../images/PT.svg" alt="Pinterest"></a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 rrss">
+            <h4>¡Seguinos en nuestras redes sociales!</h4>
+            <div class="rrssImg">
+                <a href="http://https://www.facebook.com/LSDupe" target="_blank"><img src="../images/FB.svg"
+                        alt="Facebook"></a>
+                <a href="https://www.instagram.com/LSDupe" target="_blank"><img src="../images/IG.svg"
+                        alt="Instagram"></a>
+                <a href="https://ar.pinterest.com/LSDupe" target="_blank"><img src="../images/PT.svg"
+                        alt="Pinterest"></a>
                 <a href="https://www.youtube.com/LSDupe" target="_blank"><img src="../images/YT.svg" alt="YouTube"></a>
-                </div>
             </div>
-            <ul class="footerMenu">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="#miPerfil">Mi perfil</a></li>
-                <li><a href="tono.html">Buscar por tono</a></li>
-                <li><a href="marca.html">Buscar por marca</a></li>
-                <li><a href="formatoyacabado.html">Buscar por formato y acabado</a></li>
-                <li><a href="tyc.html">Términos y Condiciones</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
+        </div>
+        <ul class="col-lg-4 col-md-4 col-sm-12 footerMenu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./perfil.html">Mi perfil</a></li>
+            <li><a href="./tono.html">Buscar por tono</a></li>
+            <li><a href="./marca.html">Buscar por marca</a></li>
+            <li><a href="./formatoyacabado.html">Buscar por formato y acabado</a></li>
+            <li><a href="./tyc.html">Términos y Condiciones</a></li>
+            <li><a href="#contato">Contacto</a></li>
+        </ul>
     </footer>
 
     <script src="../js/bootstrap.min.js"></script>
 
 </body>
+
 </html>
