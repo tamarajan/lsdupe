@@ -356,7 +356,7 @@ iframe {
 
 /*PÁGINA FORMATO Y ACABADO*/
 
-#buscarPorFormato {
+.buscarPorFormato {
     background-color: rgb(248, 232, 243);
     padding: 20px;
 }
@@ -365,112 +365,66 @@ iframe {
     text-align: center;
     color: grey;
     padding-top: 40px;
-    width: 950px;
     font-size: x-large;
-    margin-left: 210px;
-    margin-bottom: 20px;
-}
-
-.botónSeleccioná {
-    background-color: rgb(128, 128, 128);
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    margin-left: 60px;
-    min-width: 249px;
-}
-
-.menúFormato {
-    position: relative;
-    display: inline-block;
-    margin-left: 60px;
+    margin-bottom: 40px;
 }
 
 
-.listaSeleccioná {
-    display: none;
-    position: absolute;
-    background-color: rgb(248, 245, 245);
-    min-width: 238px;
-    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
-}
-
-.listaSeleccioná a {
-    color: grey;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    min-width: 249px;
-}
-
-.listaSeleccioná a:hover {
-    background-color: rgb(128, 128, 128, 0.8);
-    color: white;
-    font-weight: 600;
-}
-
-.menúFormato:hover .listaSeleccioná {
-    display: block;
-    margin-left: 60px;
-}
-
-.menúAcabado {
-    position: relative;
-    display: inline-block;
-    margin-left: 60px;
-}
-
-.menúAcabado:hover .listaSeleccioná {
-    display: block;
-    margin-left: 60px;
-}
-
-.menúTono {
-    position: relative;
-    display: inline-block;
-    margin-left: 60px;
-}
 
 
-.listaSeleccionáTono {
-    display: none;
-    position: absolute;
-    background-color: rgb(248, 245, 245);
-    min-width: 200px;
-    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+.menúFormato h2 {
+    color: rgb(141, 139, 139);
+    font-size: large;
 }
 
-.listaSeleccionáTono a {
-    color: grey;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    min-width: 215px;
+.menúFormato h3 {
+    color: rgb(141, 139, 139);
+    font-size: medium;
+    font-weight: 500;
+    padding-bottom: 20px;
 }
 
-.listaSeleccionáTono a:hover {
-    background-color: rgb(128, 128, 128, 0.8);
-    color: white;
-    font-weight: 600;
+.menúAcabado h2 {
+    color: rgb(141, 139, 139);
+    font-size: large;
 }
 
-.menúTono:hover .listaSeleccionáTono {
-    display: block;
-    margin-left: 60px;
+.menúAcabado h3 {
+    color: rgb(141, 139, 139);
+    font-size: medium;
+    font-weight: 500;
+    padding-bottom: 20px;
 }
 
-.buscarBotónFormato {
-    width: 350px;
-    height: 60px;
-    background-color: rgba(180, 179, 179, 0.8);
-    text-align: center;
-    margin-left: 490px;
-    margin-top: 380px;
-    border-color: rgb(71, 71, 71, 0.6);
-    display: block;
+.menúTono h2 {
+    color: rgb(141, 139, 139);
+    font-size: large;
 }
+
+.menúTono h3 {
+    color: rgb(141, 139, 139);
+    font-size: medium;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.buscarPorFormato .btn-primary {
+    background-color: rgb(231, 173, 184);
+    border-color: rgb(231, 173, 184);
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 300px;
+}
+
+.buscarPorFormato .btn-primary:hover {
+    background-color: rgb(248, 246, 246);
+    border-color: rgb(231, 173, 184);
+    color:rgb(231, 173, 184);
+    font-weight: 500;
+}
+
+
 
 
 /*PÁGINA TÉRMINOS Y CONDICIONES*/
@@ -1422,6 +1376,11 @@ iframe {
         margin-bottom: 20px;
         margin-left: 215px;
     }
+
+    .buscarPorFormato .btn-primary {
+        margin-bottom: 20px;
+        margin-left: 215px;
+    }
     
 
 
@@ -1618,4 +1577,31 @@ iframe {
     .tonoBuscador {
         padding: 15px;
     }
+
+    .buscarPorFormato .btn-primary {
+        margin-bottom: 20px;
+        margin-left: 10px;
+        font-size: medium;
+    }
+
+    .formatoCabecera h1 {
+        font-size: large;
+    }
+
+    .menúFormato {
+        padding: 15px;
+    }
+
+    .menúAcabado {
+        padding: 15px;
+    }
+
+    .menúTono {
+        padding: 15px;
+    }
+
+
+
+
+
 }

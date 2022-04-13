@@ -34,71 +34,84 @@
             </div>
         </nav>
     </header>
-
-    <div id="buscarPorFormato">
-        <div class="formatoCabecera">
+    
+    <div class="row buscarPorFormato">
+        
+        <div class="col-12 formatoCabecera">
             <h1> Aquí podrás encontrar encontrar el labial que buscás en el formato y el acabado que querés.</h1>
         </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 menúFormato">
+            <h2>Paso 1:</h2>
+            <h3>Seleccioná el formato deseado. </h3>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Seleccionar</option>
+                <option value="1">Barra</option>
+                <option value="2">Líquido</option>
+                <option value="3">Lápiz</option>
 
-            <div class="menúFormato">
-                <button class="botónSeleccioná"> Seleccioná el formato deseado ⇓</button>
-                <div class="listaSeleccioná">
-                <a href="#"> En Barra </a>
-                <a href="#"> Líquido </a>
-                <a href="#"> Lápiz </a>
-                </div>
-            </div>
+            </select>
+        </div>
 
-            <div class="menúAcabado">
-                <button class="botónSeleccioná"> Seleccioná el acabado deseado ⇓</button>
-                <div class="listaSeleccioná">
-                <a href="#"> Mate </a>
-                <a href="#"> Cremoso </a>
-                <a href="#"> Glossy </a>
-                <a href="#"> Perlado </a>
-                </div>
-            </div>
-            
-            <div class="menúTono">
-                <button class="botónSeleccioná"> Seleccioná el tono deseado ⇓</button>
-                <div class="listaSeleccionáTono">
-                <a href="#"> Nudes Amarronados </a>
-                <a href="#"> Nudes Rosados </a>
-                <a href="#"> Amarillentos </a>
-                <a href="#"> Anaranjados </a>
-                <a href="#"> Rosados </a>
-                <a href="#"> Rojizos </a>
-                <a href="#"> Grises </a>
-                <a href="#"> Violacios </a>
-                </div>
-            </div>
-            <button class="buscarBotónFormato">Encontrar los labiales disponibles</button>
+        <div class="col-lg-4 col-md-4 col-sm-12 menúAcabado">
+            <h2>Paso 2:</h2>
+            <h3>Seleccioná el acabado deseado. </h3>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Seleccionar</option>
+                <option value="1">Mate</option>
+                <option value="2">Cremoso</option>
+                <option value="3">Glossy</option>
+                <option value="4">Perlado</option>
+            </select>
+        </div>
+        
+
+        <div class="col-lg-4 col-md-4 col-sm-12 menúTono">
+            <h2>Paso 3:</h2>
+            <h3>Finalmente, seleccioná el tono deseado. </h3>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Seleccionar</option>
+                <option value="1">Nudes Amarronados</option>
+                <option value="2">Nudes Rosados</option>
+                <option value="3">Amarillentos</option>
+                <option value="4">Anaranjados</option>
+                <option value="5">Rosados</option>
+                <option value="6">Rojizos</option>
+                <option value="7">Grises</option>
+                <option value="8">Violacios</option>
+            </select>
+        </div>    
+        
+    <button type="submit" class="col-lg-6 col-md-6 col-sm-12 btn btn-primary">Encontrar los dupes del labial</button>
+
     </div>
 
 
-    <footer id="footer">
-        <div class="footerCopy">
-            <a href= "../index.html"><img src="../images/logo.png" alt="Logo"></a>
+    <footer class="row footer">
+        <div class="col-lg-4 col-md-4 col-sm-12 footerCopy">
+            <a href="../index.html"><img src="../images/logo.png" alt="Logo"></a>
             <p>© 2022 LSDupe.com</p>
-            </div>
-            <div class="rrss">
-                <h4>¡Seguinos en nuestras redes sociales!</h4>
-                <div class="rrssImg">
-                <a href="http://https://www.facebook.com/LSDupe" target="_blank"><img src="../images/FB.svg" alt="Facebook"></a>
-                <a href="https://www.instagram.com/LSDupe" target="_blank"><img src="../images/IG.svg" alt="Instagram"></a>
-                <a href="https://ar.pinterest.com/LSDupe" target="_blank"><img src="../images/PT.svg" alt="Pinterest"></a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 rrss">
+            <h4>¡Seguinos en nuestras redes sociales!</h4>
+            <div class="rrssImg">
+                <a href="http://https://www.facebook.com/LSDupe" target="_blank"><img src="../images/FB.svg"
+                        alt="Facebook"></a>
+                <a href="https://www.instagram.com/LSDupe" target="_blank"><img src="../images/IG.svg"
+                        alt="Instagram"></a>
+                <a href="https://ar.pinterest.com/LSDupe" target="_blank"><img src="../images/PT.svg"
+                        alt="Pinterest"></a>
                 <a href="https://www.youtube.com/LSDupe" target="_blank"><img src="../images/YT.svg" alt="YouTube"></a>
-                </div>
             </div>
-            <ul class="footerMenu">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="perfil.html">Mi perfil</a></li>
-                <li><a href="tono.html">Buscar por tono</a></li>
-                <li><a href="marca.html">Buscar por marca</a></li>
-                <li><a href="#buscarPorFormato">Buscar por formato y acabado</a></li>
-                <li><a href="tyc.html">Términos y Condiciones</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
+        </div>
+        <ul class="col-lg-4 col-md-4 col-sm-12 footerMenu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./perfil.html">Mi perfil</a></li>
+            <li><a href="./tono.html">Buscar por tono</a></li>
+            <li><a href="./marca.html">Buscar por marca</a></li>
+            <li><a href="./formatoyacabado.html">Buscar por formato y acabado</a></li>
+            <li><a href="./tyc.html">Términos y Condiciones</a></li>
+            <li><a href="#contato">Contacto</a></li>
+        </ul>
     </footer>
 
     <script src="../js/bootstrap.min.js"></script>
