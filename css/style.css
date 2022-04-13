@@ -249,30 +249,30 @@ footer img {
     font-weight: 500;
 }
 
+iframe {
+    height: 500px;
+}
+
 
 
 
 
 /*----PÁGINA MARCA----*/
 
-#buscarPorMarca {
+.buscarPorMarca {
     background-color: rgb(248, 232, 243);
+    padding: 10px;
 }
 
 .marcaCabecera h1 { 
     text-align: center;
     color: grey;
     padding-top: 40px;
-    width: 950px;
     font-size: x-large;
-    margin-left: 210px;
+    display: flex;
+    align-self: center;
 }
 
-.pasos {
-    display: inline-block;
-    padding: 30px;
-    margin-left: 70px;
-}
 
 .marcaBuscador {
     padding: 30px;
@@ -301,47 +301,25 @@ footer img {
     display: inline-block;
 }
 
-
-
-.listadoMarcas {
-    width: 300px;
-    height: 280px;
-    background-color: rgb(248, 245, 245);
-    border-right: 2px;
-    border-bottom: 2px;
-    border-left: 2px;
-    border-top: 0;
-    border-color: rgb(141, 139, 139);
-    border-style: solid;
-    display: inline-block;
+.buscarPorMarca .btn-primary {
+    background-color: rgb(231, 173, 184);
+    border-color: rgb(231, 173, 184);
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-left: 300px;
 }
 
-.listadoMarcas a{
-    text-decoration: none;
+.buscarPorMarca .btn-primary:hover {
+    background-color: rgb(248, 246, 246);
+    border-color: rgb(231, 173, 184);
+    color:rgb(231, 173, 184);
+    font-weight: 500;
 }
 
-.listadoMarcas li {
-    list-style-type: none;
-}
 
-.listadoMarcas a li {
-    padding: 10px;
-    color: grey;
-    font-size: small;
-    font-weight: 400;
-}
-
-.listadoMarcas a li:hover {
-    padding: 10px;
-    color: white;
-    background-color: rgb(128, 128, 128, 0.8);
-    font-size: small;
-    font-weight: 600;
-}
 
 .líneaBuscador {
     padding: 30px;
-    display: inline-block;
 }
 
 .líneaBuscador h2 {
@@ -356,41 +334,6 @@ footer img {
     padding-bottom: 20px;
 }
 
-.listadoLínea {
-    width: 300px;
-    height: 280px;
-    background-color: rgb(248, 245, 245);
-    border-right: 2px;
-    border-bottom: 2px;
-    border-left: 2px;
-    border-top: 0;
-    border-color: rgb(141, 139, 139);
-    border-style: solid;
-    display: inline-block;
-}
-
-.listadoLínea a{
-    text-decoration: none;
-}
-
-.listadoLínea li {
-    list-style-type: none;
-}
-
-.listadoLínea a li {
-    padding: 10px;
-    color: grey;
-    font-size: small;
-    font-weight: 400;
-}
-
-.listadoLínea a li:hover {
-    padding: 10px;
-    color: white;
-    background-color: rgb(128, 128, 128, 0.8);
-    font-size: small;
-    font-weight: 600;
-}
 
 .tonoBuscador {
     padding: 30px;
@@ -409,51 +352,6 @@ footer img {
     padding-bottom: 20px;
 }
 
-.listadoTono {
-    width: 300px;
-    height: 280px;
-    background-color: rgb(248, 245, 245);
-    border-right: 2px;
-    border-bottom: 2px;
-    border-left: 2px;
-    border-top: 0;
-    border-color: rgb(141, 139, 139);
-    border-style: solid;
-    display: inline-block;
-}
-
-.listadoTono a{
-    text-decoration: none;
-}
-
-.listadoTono li {
-    list-style-type: none;
-}
-
-.listadoTono a li {
-    padding: 10px;
-    color: grey;
-    font-size: small;
-    font-weight: 400;
-}
-
-.listadoTono a li:hover {
-    padding: 10px;
-    color: white;
-    background-color: rgb(128, 128, 128, 0.8);
-    font-size: small;
-    font-weight: 600;
-}
-
-.buscarBotón {
-    width: 350px;
-    height: 60px;
-    background-color: rgba(180, 179, 179, 0.8);
-    text-align: center;
-    margin-left: 430px;
-    border-color: rgb(71, 71, 71, 0.6);
-    display: block;
-}
 
 
 /*PÁGINA FORMATO Y ACABADO*/
@@ -1516,6 +1414,17 @@ footer img {
         width: auto;
     }
 
+    iframe {
+        height: 350px;
+    }
+
+    .buscarPorMarca .btn-primary {
+        margin-bottom: 20px;
+        margin-left: 215px;
+    }
+    
+
+
 }
 
 @media screen and (max-width:480px) {
@@ -1675,6 +1584,10 @@ footer img {
         width: auto;
     }
 
+    iframe {
+        height: 100%;
+    }
+
     .cardTono a h3 {
         font-weight: 500;
         font-size: medium;
@@ -1684,4 +1597,25 @@ footer img {
         margin-left: 30px;
     }
 
+    .buscarPorMarca .btn-primary {
+        margin-bottom: 20px;
+        margin-left: 10px;
+        font-size: medium;
+    }
+
+    .marcaCabecera h1 {
+        font-size: large;
+    }
+
+    .marcaBuscador {
+        padding: 15px;
+    }
+
+    .líneaBuscador {
+        padding: 15px;
+    }
+
+    .tonoBuscador {
+        padding: 15px;
+    }
 }

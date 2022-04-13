@@ -36,94 +36,89 @@
         </nav>
     </header>
 
-    <div id="buscarPorMarca">
-        <div class="marcaCabecera">
-            <h1> Aquí podrás encontrar encontrar el tono de labial que querés en marcas de todas las gamas de precios y acabados posibles guiándonos por la marca, línea y tono del labial que ya conoces.</h1>
-        </div>
-        <div class="pasos">
-            <div class="marcaBuscador">
+    <div class="row buscarPorMarca">
+        
+            <div class="col-12 marcaCabecera">
+                <h1> Aquí podrás encontrar encontrar el tono de labial que querés en marcas de todas las gamas de precios y acabados posibles guiándonos por la marca, línea y tono del labial que ya conoces.</h1>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 marcaBuscador">
                 <h2>Paso 1:</h2>
-                <h3>Ingresá la marca del labial que estás buscando. </h3>
-                <form action="#">
-                    <input type="text" placeholder="Buscar" name="search" class="buscador">
-                </form>
-                <ul class="listadoMarcas"> 
-                    <a href="#"><li>Marca A</li></a>
-                    <a href="#"><li>Marca B</li></a>
-                    <a href="#"><li>Marca C</li></a>   
-                    <a href="#"><li>Marca D</li></a>
-                    <a href="#"><li>Marca E</li></a>
-                    <a href="#"><li>Marca F</li></a> 
-                    <a href="#"><li>Marca G</li></a>
-                    <a href="#"><li>Marca H</li></a>             
-                </ul>
+                <h3>Seleccioná la marca del labial que estás buscando. </h3>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Seleccionar</option>
+                    <option value="1">Marca A</option>
+                    <option value="2">Marca B</option>
+                    <option value="3">Marca C</option>
+                    <option value="4">Marca D</option>
+                    <option value="5">Marca E</option>
+                    <option value="6">Marca F</option>
+                    <option value="7">Marca G</option>
+                    <option value="8">Marca H</option>
+                </select>
             </div>
 
-            <div class="líneaBuscador">
+            <div class="col-lg-4 col-md-4 col-sm-12 líneaBuscador">
                 <h2>Paso 2:</h2>
-                <h3>Ingresá la línea del tono que te interesa. </h3>
-                <form action="#">
-                    <input type="text" placeholder="Buscar" name="search" class="buscador">
-                </form>
-                <ul class="listadoLínea"> 
-                    <a href="#"><li>Línea A</li></a>
-                    <a href="#"><li>Línea B</li></a>
-                    <a href="#"><li>Línea C</li></a>   
-                    <a href="#"><li>Línea D</li></a>
-                    <a href="#"><li>Línea E</li></a>
-                    <a href="#"><li>Línea F</li></a> 
-                    <a href="#"><li>Línea G</li></a>
-                    <a href="#"><li>Línea H</li></a>             
-                </ul>
+                <h3>Seleccioná la línea del tono que te interesa. </h3>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Seleccionar</option>
+                    <option value="1">Línea A</option>
+                    <option value="2">Línea B</option>
+                    <option value="3">Línea C</option>
+                    <option value="4">Línea D</option>
+                    <option value="5">Línea E</option>
+                </select>
             </div>
+            
 
-            <div class="tonoBuscador">
+            <div class="col-lg-4 col-md-4 col-sm-12 tonoBuscador">
                 <h2>Paso 3:</h2>
-                <h3>Finalmente, seleccioná qué tono buscas. </h3>
-                <form action="#">
-                    <input type="text" placeholder="Buscar" name="search" class="buscador">
-                </form>
-                <ul class="listadoTono"> 
-                    <a href="#"><li>Tono A</li></a>
-                    <a href="#"><li>Tono B</li></a>
-                    <a href="#"><li>Tono C</li></a>   
-                    <a href="#"><li>Tono D</li></a>
-                    <a href="#"><li>Tono E</li></a>
-                    <a href="#"><li>Tono F</li></a> 
-                    <a href="#"><li>Tono G</li></a>
-                    <a href="#"><li>Tono H</li></a>             
-                </ul>
+                <h3>Finalmente, seleccioná el tono que buscas. </h3>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Seleccionar</option>
+                    <option value="1">Tono A</option>
+                    <option value="2">Tono B</option>
+                    <option value="3">Tono C</option>
+                    <option value="4">Tono D</option>
+                    <option value="5">Tono E</option>
+                    <option value="6">Tono F</option>
+                    <option value="7">Tono G</option>
+                    <option value="8">Tono H</option>
+                </select>
             </div>    
+            
+        <button type="submit" class="col-lg-6 col-md-6 col-sm-12 btn btn-primary">Encontrar los dupes del labial</button>
 
-            <button class="buscarBotón">Encontrar los dupes del labial</button>
-        </div>
     </div>
 
 
 
-    <footer id="footer">
-        <div class="footerCopy">
-            <a href= "../index.html"><img src="../images/logo.png" alt="Logo"></a>
+    <footer class="row footer">
+        <div class="col-lg-4 col-md-4 col-sm-12 footerCopy">
+            <a href="../index.html"><img src="../images/logo.png" alt="Logo"></a>
             <p>© 2022 LSDupe.com</p>
-            </div>
-            <div class="rrss">
-                <h4>¡Seguinos en nuestras redes sociales!</h4>
-                <div class="rrssImg">
-                <a href="http://https://www.facebook.com/LSDupe" target="_blank"><img src="../images/FB.svg" alt="Facebook"></a>
-                <a href="https://www.instagram.com/LSDupe" target="_blank"><img src="../images/IG.svg" alt="Instagram"></a>
-                <a href="https://ar.pinterest.com/LSDupe" target="_blank"><img src="../images/PT.svg" alt="Pinterest"></a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 rrss">
+            <h4>¡Seguinos en nuestras redes sociales!</h4>
+            <div class="rrssImg">
+                <a href="http://https://www.facebook.com/LSDupe" target="_blank"><img src="../images/FB.svg"
+                        alt="Facebook"></a>
+                <a href="https://www.instagram.com/LSDupe" target="_blank"><img src="../images/IG.svg"
+                        alt="Instagram"></a>
+                <a href="https://ar.pinterest.com/LSDupe" target="_blank"><img src="../images/PT.svg"
+                        alt="Pinterest"></a>
                 <a href="https://www.youtube.com/LSDupe" target="_blank"><img src="../images/YT.svg" alt="YouTube"></a>
-                </div>
             </div>
-            <ul class="footerMenu">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="perfil.html">Mi perfil</a></li>
-                <li><a href="tono.html">Buscar por tono</a></li>
-                <li><a href="#buscarPorMarca">Buscar por marca</a></li>
-                <li><a href="formatoyacabado.html">Buscar por formato y acabado</a></li>
-                <li><a href="tyc.html">Términos y Condiciones</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
+        </div>
+        <ul class="col-lg-4 col-md-4 col-sm-12 footerMenu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./perfil.html">Mi perfil</a></li>
+            <li><a href="./tono.html">Buscar por tono</a></li>
+            <li><a href="./marca.html">Buscar por marca</a></li>
+            <li><a href="./formatoyacabado.html">Buscar por formato y acabado</a></li>
+            <li><a href="./tyc.html">Términos y Condiciones</a></li>
+            <li><a href="#contato">Contacto</a></li>
+        </ul>
     </footer>
 
     <script src="../js/bootstrap.min.js"></script>
