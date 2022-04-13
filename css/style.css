@@ -429,57 +429,59 @@ iframe {
 
 /*PÁGINA TÉRMINOS Y CONDICIONES*/
 
-#tyc {
+.tyc {
     background-color: rgb(235, 226, 226);
     padding: 35px;
 }
 
-#tyc h1 {
+.tyc h1 {
     color: grey;
     margin-bottom: 20px;
 }
 
-#tyc h3 {
+.tyc h3 {
     color: grey;
     margin-bottom: 10px;
 }
 
-#tyc p {
+.tyc p {
     color: grey;
     margin-bottom: 30px;
     margin-top: 10px;
     text-align: justify;
 }
 
-#tyc ul li {
+.tyc ul li {
     color: grey;
     margin-bottom: 10px;
     list-style-type: lower-roman;
     margin-left: 50px;
 }
 
-#tyc ul {
+.tyc ul {
     margin-bottom: 50px;
 }
 
-.tycCheckbox {
+.form-check {
     font-style: italic;
     color: grey;
-    display: inline;
-}
-
-.tycCheckbox label{
-    display: inline;
-}
-
-.enviarBotón {
-    width: 180px;
-    height: 30px;
-    background-color: rgba(180, 179, 179, 0.8);
-    text-align: center;
-    margin-top: 20px;
-    border-color: rgb(71, 71, 71, 0.6);
     display: block;
+}
+
+
+.tyc .btn-primary {
+    background-color: rgb(231, 173, 184);
+    border-color: rgb(231, 173, 184);
+    font-weight: 500;
+    margin-top: 30px;
+    margin-left: 310px;
+}
+
+.tyc .btn-primary:hover {
+    background-color: rgb(248, 246, 246);
+    border-color: rgb(231, 173, 184);
+    color:rgb(231, 173, 184);
+    font-weight: 500;
 }
 
 
@@ -601,700 +603,6 @@ iframe {
 
 
 
-/* RESPONSIVE CON QUERIES
-@media screen and (max-width:768px) {
-    #index{
-        grid-template-columns: 0.5fr 0.5fr 0.5fr;
-        grid-template-rows: 0.01fr 0.06fr 0.2fr 0.5fr 0.4fr;
-        grid-template-areas: 
-        "header header header"
-        "portada portada portada"
-        "nosotros nosotros nosotros"
-        "buscador buscador buscador"
-        "footer footer footer"
-        ;
-    }
-
-    #header {
-        background-color: rgba(221, 214, 215);
-        color: antiquewhite;
-        position: sticky;
-        top: 0;
-        box-shadow: 0px 0px 0px 3px rgba(53, 51, 51, 0.19);
-        grid-area: header;
-        align-items: start;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        height: auto;
-    }
-    
-    
-    #header img {
-        margin: 30px;
-        width: 15%;
-        align-self: start;
-    }
-    
-    
-    
-    .listaMenu {
-        list-style-type: none;
-        display: flex;
-        padding: 20px;
-        margin-left: 0;
-    }
-    
-    
-    .listaMenu li a {
-        color: antiquewhite;
-        font-weight: 600;
-        font-size: small;
-        margin-right: 15px;
-        text-decoration: none;
-        text-align: center;
-    }
-    
-    .icons a img {
-        display: none;
-    }
-
-
-    .portada {
-        grid-area: portada;
-    }
-    
-    .portada img {
-        width: 100%;
-    }
-    
-    
-    .nosotros {
-        background-color: rgb(248, 232, 243);
-        grid-area: nosotros;
-        display: grid;
-        grid-template-columns: 0.5fr 0.5fr;
-        grid-template-rows: 1fr;
-        grid-template-areas: 
-        "nosotrosimg nosotrostext";
-        justify-content: left;
-
-    }
-    
-    .nosotrosText {
-        text-align: right;
-        font-weight: 500;
-        font-size: medium; 
-        line-height: 40px;
-        grid-area: nosotrostext;
-    }
-    
-    .nosotrosImg {
-        width: 90%;
-        padding: 15px;
-        border-right: 3px;
-        border-bottom: 0;
-        border-top: 0;
-        border-left: 0;
-        border-style: solid;
-        border-color: rgb(252, 250, 250);
-        margin-top: 10px;
-        margin-bottom: 10px;
-        grid-area: nosotrosimg;
-    }
-    
-    
-
-    #buscar {
-        grid-area: buscador;
-    }
-    
-    .card {
-        background-color: rgb(250, 219, 224);
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .card a {
-        text-decoration: none;
-        color: white;
-        font-weight: 600;
-        padding: 15px;
-        text-align: center;
-        margin-bottom: 10px;
-    }
-    
-    .card a img {
-        padding: 10 px, 20px, 0px, 10px;
-        margin: 20px;
-        opacity: 1;
-        width: 85%;
-    }
-    
-    .buscadorTono {
-        grid-area: buscadortono;
-        
-    }
-    
-    .buscadorMarca {
-        grid-area: buscadormarca;
-    }
-    
-    .buscadorForm {
-        grid-area: buscadorform;
-    }
-    
-    
-    #footer {
-        grid-area: footer;
-        display: grid;
-        grid-template-columns: 0.5fr 0.5fr 0.5fr;
-        grid-template-rows: 1fr;
-        grid-template-areas: 
-        "footercopy footerrrss footermenu";
-    }
-    
-    footer {
-        padding: 20px;
-        border-top: 2px;
-        border-left: 0;
-        border-bottom: 0;
-        border-right: 0;
-        border-style:solid;
-        border-color: rgb(247, 162, 219);
-        background-color: rgb(223, 219, 219);
-        display: flex;
-    }
-    
-    .rrss {
-        border-right: 2px;
-        border-bottom: 0;
-        border-top: 0;
-        border-left: 2px;
-        border-style: solid;
-        border-color: rgb(252, 250, 250);
-        grid-area: footerrrss;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: column;
-        padding: 5px;
-    }
-    
-    .rrssImg a img {
-        width: 15%;
-        height: auto;
-        padding-left: 15px;
-    }
-    
-    .rrss h4{
-        color: grey;
-        font-weight: 500;
-        text-align: center;
-        font-size: medium;
-        padding: 5px;
-    }
-    
-    
-    .footerMenu {
-        grid-area: footermenu;
-        display: flex;
-        flex-direction: column;
-        padding-left: 20%;
-    }
-    
-    footer ul {
-        list-style-type: none;
-        text-decoration: none;
-    }
-    
-    footer ul a{
-        text-decoration: none;
-        color: grey;
-        font-weight: 300;
-        text-align: left;
-        font-size: small;
-    }
-    
-    
-    footer p {
-        color: grey;
-        font-size: x-small;
-        font-style: italic;
-    }
-    
-    footer img {
-        width: 55px;
-        height: 40px;
-    }
-    
-    .footerCopy {
-        grid-area: footercopy;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-
-
-
-
-    #tono {
-        display: grid;
-        grid-template-columns: 0.3fr 0.3fr 0.3fr;
-        grid-template-rows: 0.02fr 1fr 1fr 0.4fr;
-        grid-template-areas: 
-        "header header header"
-        "cardstono cardstono cardstono"
-        "youtube youtube youtube"
-        "footer footer footer"
-        ;
-    }
-    
-    .cardTono {
-        background-color: rgb(250, 219, 224);
-        grid-area: cardstono;
-        display: flex;
-    }
-    
-    .cardTono a {
-        text-decoration: none;
-        color: rgb(224, 139, 153);
-        font-weight: 500;
-        font-size: medium;
-        padding: 15px;
-        width: 45%;
-        margin-left: 10px;
-        margin-bottom: 10px;
-        text-align: center;
-    }
-    
-    .cardTono a img {
-        width: 80%;
-        height: auto;
-        padding: 10 px, 20px, 0px, 10px;
-        margin: 20px;
-        opacity: 1;
-    }
-    
-    
-    
-    .youtube {
-        background-color: rgb(236, 191, 222);
-        padding: 50px;
-        grid-area: youtube;
-    }
-    
-    .youtube h1 {
-        text-align: center;
-        margin-left: 0;
-        color: grey;
-        padding-bottom: 30px;
-        width: 650px;
-    }
-    
-    .youtube iframe {
-        width: 23%;
-        margin-left: 5px;
-    }
-
-
-
-
-
-}
-
-@media screen and (max-width:480px) {
-    #index{
-        grid-template-columns: 0.05fr;
-        grid-template-rows: 0.01fr 0.03fr 0.3fr 0.01fr 0.4fr;
-        grid-template-areas: 
-        "header"
-        "portada"
-        "nosotros"
-        "buscador"
-        "footer"
-        ;
-    }
-
-    #header {
-        background-color: rgba(221, 214, 215);
-        color: antiquewhite;
-        position: sticky;
-        top: 0;
-        box-shadow: 0px 0px 0px 3px rgba(53, 51, 51, 0.19);
-        grid-area: header;
-        align-items: start;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 100%;
-        height: auto;
-    }
-    
-    
-    #header img {
-        margin: 10px;
-        width: 20%;
-        align-self: center;
-    }
-    
-    .icons a img {
-        width: 40%;
-        display: flex;
-    }
-    
-    .listaMenu {
-        display: none;
-    }
-    
-    
-    .portada {
-        grid-area: portada;
-    }
-    
-    .portada img {
-        width: 100%;
-    }
-    
-    
-    .nosotros {
-        background-color: rgb(248, 232, 243);
-        grid-area: nosotros;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.5fr 0.2fr;
-        grid-template-areas: 
-        "nosotrosimg"
-        "nosotrostext";
-        justify-content: center;
-    }
-    
-    .nosotrosText {
-        text-align: center;
-        font-weight: 300;
-        font-size: xx-small; 
-        grid-area: nosotrostext;
-        line-height: 10px;
-        padding: 5px;
-    }
-    
-    .nosotrosImg {
-        grid-area: nosotrosimg;
-        align-content: center;
-        width: 80%;
-        border: 0;
-        padding-left: 15px;
-        margin: 0;
-    }
-    
-    #buscar {
-        grid-area: buscador;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        grid-template-areas: 
-        "buscadortono" 
-        "buscadormarca" 
-        "buscadorform";
-    }
-    
-    .card {
-        background-color: rgb(250, 219, 224);
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .card a {
-        text-decoration: none;
-        color: white;
-        font-weight: 400;
-        text-align: center;
-        margin-bottom: 10px;
-        font-size: small;
-    }
-    
-    .card a img {
-        opacity: 1;
-        padding: 0;
-        margin:0;
-        justify-content: center;
-    }
-    
-    .buscadorTono {
-        grid-area: buscadortono;
-        
-    }
-    
-    .buscadorMarca {
-        grid-area: buscadormarca;
-    }
-    
-    .buscadorForm {
-        grid-area: buscadorform;
-    }
-    
-    
-    #footer {
-        grid-area: footer;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.3fr 0.3fr 0.3fr;
-        grid-template-areas: 
-        "footercopy"
-        "footerrrss"
-        "footermenu";
-        flex-direction: column;
-    }
-    
-    footer {
-        padding: 20px;
-        border-top: 2px;
-        border-left: 0;
-        border-bottom: 0;
-        border-right: 0;
-        border-style:solid;
-        border-color: rgb(247, 162, 219);
-        background-color: rgb(223, 219, 219);
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .rrss {
-        border-right: 0;
-        border-bottom: 2px;
-        border-top: 2px;
-        border-left: 0;
-        border-style: solid;
-        border-color: rgb(252, 250, 250);
-        grid-area: footerrrss;
-        display: flex;
-        align-items: center;
-        padding: 20px;
-    }
-
-
-    .rrssImg a img {
-        width: 30%;
-        height: auto;
-        padding: 3px;
-    }
-    
-    .rrss h4{
-        color: grey;
-        font-weight: 300;
-        text-align: center;
-        font-size: small;
-        padding: 0;
-    }
-    
-    
-    .footerMenu {
-        grid-area: footermenu;
-        display: flex;
-        flex-direction: column;
-        padding-left: 0;
-    }
-    
-    footer ul {
-        list-style-type: none;
-        text-decoration: none;
-        text-align: center;
-    }
-    
-    footer ul a{
-        text-decoration: none;
-        color: grey;
-        font-weight: 300;
-        text-align: center;
-        font-size: x-small;
-    }
-    
-    
-    footer p {
-        color: grey;
-        font-size: x-small;
-        font-style: italic;
-        margin-bottom: 20px;
-    }
-    
-    footer img {
-        width: 55px;
-        height: 40px;
-    }
-    
-    .footerCopy {
-        grid-area: footercopy;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-
-
-    #tono {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.01fr 0.5fr 0.5fr 0.2fr;
-        grid-template-areas: 
-        "header"
-        "cardstono"
-        "youtube"
-        "footer"
-        ;
-    }
-    
-    
-    .cardTono {
-        background-color: rgb(250, 219, 224);
-        grid-area: cardstono;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .cardTono a {
-        text-decoration: none;
-        color: rgb(224, 139, 153);
-        font-weight: 400;
-        font-size: small;
-        padding-left: 15px;
-        width: 80%;
-        margin-left: 15px;
-        margin-bottom: 0;
-        text-align: center;
-    }
-    
-    .cardTono a img {
-        width: 80%;
-        height: auto;
-        padding:0;
-        margin-top: 10px;
-        opacity: 1;
-    }
-    
-    
-    
-    .youtube {
-        background-color: rgb(236, 191, 222);
-        padding: 20px;
-        grid-area: youtube;
-    }
-    
-    .youtube h1 {
-        text-align: center;
-        margin-left: 0;
-        color: grey;
-        padding-bottom: 30px;
-        width: 100%;
-        font-size: small;
-        font-weight: 400;
-    }
-    
-    .youtube iframe {
-        width: 45%;
-        margin-left: 5px;}
-
-    #footer {
-        grid-area: footer;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.3fr 0.3fr 0.3fr;
-        grid-template-areas: 
-        "footercopy"
-        "footerrrss"
-        "footermenu";
-        flex-direction: column;
-        }
-        
-    footer {
-            padding: 20px;
-            border-top: 2px;
-            border-left: 0;
-            border-bottom: 0;
-            border-right: 0;
-            border-style:solid;
-            border-color: rgb(247, 162, 219);
-            background-color: rgb(223, 219, 219);
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .rrss {
-            border-right: 0;
-            border-bottom: 2px;
-            border-top: 2px;
-            border-left: 0;
-            border-style: solid;
-            border-color: rgb(252, 250, 250);
-            grid-area: footerrrss;
-            display: flex;
-            align-items: center;
-            padding: 20px;
-        }
-    
-    
-        .rrssImg a img {
-            width: 18%;
-            height: auto;
-            padding: 5px;
-        }
-        
-        .rrss h4{
-            color: grey;
-            font-weight: 300;
-            text-align: center;
-            font-size: small;
-            padding: 0;
-        }
-        
-        
-        .footerMenu {
-            grid-area: footermenu;
-            display: flex;
-            flex-direction: column;
-            padding-left: 0;
-        }
-        
-        footer ul {
-            list-style-type: none;
-            text-decoration: none;
-            text-align: center;
-        }
-        
-        footer ul a{
-            text-decoration: none;
-            color: grey;
-            font-weight: 300;
-            text-align: center;
-            font-size: x-small;
-        }
-        
-        
-        footer p {
-            color: grey;
-            font-size: x-small;
-            font-style: italic;
-            margin-bottom: 20px;
-        }
-        
-        footer img {
-            width: 55px;
-            height: 40px;
-        }
-        
-        .footerCopy {
-            grid-area: footercopy;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-
-}
-*/
-
 @media screen and (max-width:768px) {
 
     #navbarText .nav-item {
@@ -1382,7 +690,9 @@ iframe {
         margin-left: 215px;
     }
     
-
+    .tyc .btn-primary {
+        margin-left: 50px;
+    }
 
 }
 
@@ -1600,6 +910,9 @@ iframe {
         padding: 15px;
     }
 
+    .tyc .btn-primary {
+        margin-left: 50px;
+    }
 
 
 

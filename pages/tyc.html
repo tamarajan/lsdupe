@@ -35,7 +35,8 @@
         </nav>
     </header>
 
-    <section id="tyc">
+    <section class="row tyc">
+        <div class="col-12 tyc">
         <h1>Términos y Condiciones</h1>
         <h3>Información al Usuario titular de los datos personales</h3>
         <p>El Usuario que utilice el sitio web podrá proporcionar algunos datos personales a efectos de mantenerse en contacto y recibir información respecto de servicios que se pongan a disposición de la persona en relación a los servicios utilizados.
@@ -54,37 +55,44 @@
                 <li>Compararlos con los registros de los servicios de la web para ofrecer informaciones relevantes al Usuario.</li>
             </ul>
         </p>
-        <div class="tycCheckbox">
-            <input type="checkbox" name="tyc" id="tyc">
-            <label for="tyc" >He leído y acepto los términos y condiciones.</label>
+
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">He leído y acepto los términos y condiciones. </label>
         </div>
 
-        <button class="enviarBotón">Enviar consentimiento</button>
-        </section>
+    
+        <button type="submit" class="col-lg-6 col-md-6 col-sm-12 btn btn-primary">Enviar consentimiento</button>
 
-        <footer id="footer">
-            <div class="footerCopy">
-                <a href= "../index.html"><img src="../images/logo.png" alt="Logo"></a>
+        </div>
+</section>
+
+        <footer class="row footer">
+            <div class="col-lg-4 col-md-4 col-sm-12 footerCopy">
+                <a href="../index.html"><img src="../images/logo.png" alt="Logo"></a>
                 <p>© 2022 LSDupe.com</p>
-                </div>
-                <div class="rrss">
-                    <h4>¡Seguinos en nuestras redes sociales!</h4>
-                    <div class="rrssImg">
-                    <a href="http://https://www.facebook.com/LSDupe" target="_blank"><img src="../images/FB.svg" alt="Facebook"></a>
-                    <a href="https://www.instagram.com/LSDupe" target="_blank"><img src="../images/IG.svg" alt="Instagram"></a>
-                    <a href="https://ar.pinterest.com/LSDupe" target="_blank"><img src="../images/PT.svg" alt="Pinterest"></a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 rrss">
+                <h4>¡Seguinos en nuestras redes sociales!</h4>
+                <div class="rrssImg">
+                    <a href="http://https://www.facebook.com/LSDupe" target="_blank"><img src="../images/FB.svg"
+                            alt="Facebook"></a>
+                    <a href="https://www.instagram.com/LSDupe" target="_blank"><img src="../images/IG.svg"
+                            alt="Instagram"></a>
+                    <a href="https://ar.pinterest.com/LSDupe" target="_blank"><img src="../images/PT.svg"
+                            alt="Pinterest"></a>
                     <a href="https://www.youtube.com/LSDupe" target="_blank"><img src="../images/YT.svg" alt="YouTube"></a>
-                    </div>
                 </div>
-                <ul class="footerMenu">
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="perfil.html">Mi perfil</a></li>
-                    <li><a href="tono.html">Buscar por tono</a></li>
-                    <li><a href="marca.html">Buscar por marca</a></li>
-                    <li><a href="formatoyacabado.html">Buscar por formato y acabado</a></li>
-                    <li><a href="#tyc">Términos y Condiciones</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
+            </div>
+            <ul class="col-lg-4 col-md-4 col-sm-12 footerMenu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./perfil.html">Mi perfil</a></li>
+                <li><a href="./tono.html">Buscar por tono</a></li>
+                <li><a href="./marca.html">Buscar por marca</a></li>
+                <li><a href="./formatoyacabado.html">Buscar por formato y acabado</a></li>
+                <li><a href="./tyc.html">Términos y Condiciones</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
         </footer>
 
         <script src="../js/bootstrap.min.js"></script>
