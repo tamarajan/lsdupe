@@ -195,43 +195,38 @@ footer img {
 
 /*PÁGINA TONO*/
 
-#tono {
-    display: grid;
-    grid-template-columns: 0.3fr 0.3fr 0.3fr;
-    grid-template-rows: 0.02fr 1fr 1fr 0.4fr;
-    grid-template-areas: 
-    "header header header"
-    "cardstono cardstono cardstono"
-    "youtube youtube youtube"
-    "footer footer footer"
-    ;
-}
 
 .cardTono {
     background-color: rgb(250, 219, 224);
-    grid-area: cardstono;
     display: flex;
+    justify-content: center;
 }
 
 .cardTono a {
     text-decoration: none;
     color: rgb(224, 139, 153);
-    font-weight: 600;
-    font-size: large;
     padding: 15px;
     width: 45%;
-    margin-left: 10px;
     margin-bottom: 10px;
+    justify-content: center;
+}
+
+.cardTono a h3 {
+    color: rgb(224, 139, 153);
+    font-weight: 600;
+    font-size: large;
     text-align: center;
 }
 
 .cardTono a img {
-    width: 100%;
+    width: 80%;
     height: auto;
-    padding: 10 px, 20px, 0px, 10px;
-    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 50px;
     opacity: 1;
 }
+
 
 
 .cardTono a:hover {
@@ -239,76 +234,21 @@ footer img {
     color: rgb(177, 162, 165);
 }
 
-
 .youtube {
-    background-color: rgb(236, 191, 222);
-    padding: 50px;
-    grid-area: youtube;
+    padding: 30px;
+    background-color: rgb(236, 212, 216);
 }
 
 .youtube h1 {
     text-align: center;
     margin-left: 350px;
     color: grey;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     width: 650px;
-}
-
-.youtube iframe {
-    width: 24%;
-    margin-left: 6px;
-}
-
-/*
-#subirImagen {
-    background-color: rgb(192, 189, 189);
-    border-bottom: 3px;
-    border-top: 0;
-    border-right: 0;
-    border-left: 0;
-    border-color: rgb(236, 213, 229);
-    border-style: solid;
-}
-
-
-.subirImagen p{
-    display: inline-block;
+    font-size: x-large;
     font-weight: 500;
-    font-size:x-large;
-    padding: 25px;
-    width: 50%;
-    color: white;
 }
 
-.subirImagen img{
-    display: inline-block;
-    height: 350px;
-    margin-left: 200px;
-}
-
-
-.seleccionarColor p{
-    text-align: right;
-    display: inline-block;
-    font-weight: 500;
-    font-size:x-large;
-    padding: 25px;
-    width: 50%;
-    background-color: rgb(192, 189, 189);
-    color: white;
-    margin-left: 250px;
-}
-
-.seleccionarColor img {
-    display: inline-block;
-    height: 350px;
-}
-
-#seleccionarColor {
-    background-color: rgb(192, 189, 189);
-}
-
-*/
 
 
 
@@ -1720,4 +1660,15 @@ footer img {
     .contacto textarea {
         height: 150px;
     }
+
+    .youtube h1 {
+        padding-bottom: 10px;
+        margin-left: 0;
+        font-size: medium;
+        font-weight: 400;
+        width: auto;
+    }
+
+
+
 }
