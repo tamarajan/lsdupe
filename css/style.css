@@ -1676,7 +1676,7 @@ footer img {
 
     #navbarText .nav-link {
         padding: 5px;
-        justify-content: left; 
+        justify-content: right; 
         margin-top: 5px;
         font-weight: 500;
         font-size: small;
@@ -1719,8 +1719,7 @@ footer img {
 
     .card a img {
         padding: 5px;
-        width: 55%;
-        margin-left: 20px;
+        width: 85%;
     }
 
     .buscadorMarca {
@@ -1748,10 +1747,14 @@ footer img {
 
     .rrssImg a img {
         width: 15%;
+        align-items: center;
+        justify-content: center;
+        margin-left: 8px;
     }
 
-    .rrssImg {
+    .rrssImg a {
         align-content: center;
+        margin-left: 15px;
     }
     
     .rrss h4 {
