@@ -1,0 +1,32 @@
+header {
+    background-color: rgba(221, 214, 215, 1);
+    color: antiquewhite;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0px 0px 0px 3px rgba(53, 51, 51, 0.19);
+    align-items: start;
+
+    img{
+        margin: 25px;
+        width: 50%;
+        display: flex;
+        justify-content: left;
+}
+}
+
+
+
+
+#navbarText .nav-link {
+    list-style-type: none;
+    padding: 25px;
+    margin-top: 25px;
+    color: rgb(231, 173, 184);
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+.navbar-brand {
+    width: 150px;
+}
