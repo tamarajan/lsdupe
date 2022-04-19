@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -91,6 +92,269 @@ footer {
   align-items: center;
   justify-content: center; }
 
+.portadaImg {
+  padding: 0; }
+  .portadaImg img {
+    width: 100%; }
+
+.nosotros {
+  background-color: #f8e8f3; }
+
+.nosotrosText {
+  text-align: right;
+  font-weight: 600;
+  font-size: x-large;
+  padding-right: 25px;
+  line-height: 60px;
+  align-self: center; }
+
+.nosotrosImg {
+  padding: 25px;
+  border-right: 3px;
+  border-bottom: 0;
+  border-top: 0;
+  border-left: 0;
+  border-style: solid;
+  border-color: #fcfafa;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.card {
+  background-color: #fadbe0;
+  border: 0;
+  border-radius: 0;
+  display: flex;
+  flex-direction: row; }
+  .card a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: large;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 10px; }
+    .card a:hover {
+      opacity: 0.5;
+      color: #b1a2a5; }
+    .card a img {
+      padding: 10 px, 20px, 0px, 10px;
+      margin: 20px;
+      opacity: 1;
+      width: 85%; }
+
+.miPerfil {
+  padding: 30px;
+  background-color: #f8e8f3; }
+  .miPerfil h1 {
+    color: grey;
+    font-size: x-large;
+    margin-bottom: 20px; }
+  .miPerfil h5 {
+    color: grey;
+    font-size: large;
+    margin-bottom: 20px; }
+
+.perfil img {
+  width: 280px; }
+
+.perfil h3 {
+  color: grey;
+  border-color: grey;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end; }
+
+.list-group-flush {
+  background-color: #f8e8f3; }
+
+.list-group-item {
+  background-color: #f8e8f3;
+  margin-left: 20px;
+  padding-top: 23px; }
+
+.card {
+  background-color: #f8e8f3; }
+
+.labiales {
+  border-color: white;
+  border-style: solid;
+  border-width: 3px 0px 0px 0px;
+  margin-top: 20px;
+  padding-top: 20px; }
+
+.labialesImg {
+  display: flex;
+  justify-content: space-between; }
+  .labialesImg img {
+    width: 205px; }
+
+.cardTono {
+  background-color: #fadbe0;
+  display: flex;
+  justify-content: center; }
+  .cardTono a {
+    text-decoration: none;
+    color: #e08b99;
+    padding: 15px;
+    width: 45%;
+    margin-bottom: 10px;
+    justify-content: center; }
+    .cardTono a h3 {
+      color: #e08b99;
+      font-weight: 600;
+      font-size: large;
+      text-align: center; }
+    .cardTono a img {
+      width: 80%;
+      height: auto;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-left: 50px;
+      opacity: 1; }
+    .cardTono a:hover {
+      opacity: 0.5;
+      color: #b1a2a5; }
+
+.youtube {
+  padding: 30px;
+  background-color: #ecd4d8; }
+  .youtube h1 {
+    text-align: center;
+    margin-left: 350px;
+    color: grey;
+    padding-bottom: 30px;
+    width: 650px;
+    font-size: x-large;
+    font-weight: 500; }
+
+iframe {
+  height: 500px; }
+
+.buscarPorMarca {
+  background-color: #f8e8f3;
+  padding: 10px; }
+
+.marcaCabecera h1 {
+  text-align: center;
+  color: grey;
+  padding-top: 40px;
+  font-size: x-large;
+  display: flex;
+  align-self: center; }
+
+.marcaBuscador {
+  padding: 30px;
+  display: inline-block; }
+  .marcaBuscador h2 {
+    color: #8d8b8b;
+    font-size: large; }
+  .marcaBuscador h3 {
+    color: #8d8b8b;
+    font-size: medium;
+    font-weight: 500;
+    padding-bottom: 20px; }
+
+.buscador {
+  width: 300px;
+  height: 30px;
+  background-color: #f8f5f5;
+  border: 2px;
+  border-color: #8d8b8b;
+  border-style: solid;
+  display: inline-block; }
+
+.buscarPorMarca .btn-primary {
+  background-color: #e7adb8;
+  border-color: #e7adb8;
+  font-weight: 500;
+  margin-bottom: 30px;
+  margin-left: 300px; }
+  .buscarPorMarca .btn-primary:hover {
+    background-color: #f8f6f6;
+    border-color: #e7adb8;
+    color: #e7adb8;
+    font-weight: 500; }
+
+.líneaBuscador {
+  padding: 30px; }
+  .líneaBuscador h2 {
+    color: #8d8b8b;
+    font-size: large; }
+  .líneaBuscador h3 {
+    color: #8d8b8b;
+    font-size: medium;
+    font-weight: 500;
+    padding-bottom: 20px; }
+
+.tonoBuscador {
+  padding: 30px;
+  display: inline-block; }
+  .tonoBuscador h2 {
+    color: #8d8b8b;
+    font-size: large; }
+  .tonoBuscador h3 {
+    color: #8d8b8b;
+    font-size: medium;
+    font-weight: 500;
+    padding-bottom: 20px; }
+
+.buscarPorFormato {
+  background-color: #f8e8f3;
+  padding: 20px; }
+
+.formatoCabecera h1 {
+  text-align: center;
+  color: grey;
+  padding-top: 40px;
+  font-size: x-large;
+  margin-bottom: 40px; }
+
+.menúFormato h2 {
+  color: #8d8b8b;
+  font-size: large; }
+
+.menúFormato h3 {
+  color: #8d8b8b;
+  font-size: medium;
+  font-weight: 500;
+  padding-bottom: 20px; }
+
+.menúAcabado h2 {
+  color: #8d8b8b;
+  font-size: large; }
+
+.menúAcabado h3 {
+  color: #8d8b8b;
+  font-size: medium;
+  font-weight: 500;
+  padding-bottom: 20px; }
+
+.menúTono h2 {
+  color: #8d8b8b;
+  font-size: large; }
+
+.menúTono h3 {
+  color: #8d8b8b;
+  font-size: medium;
+  font-weight: 500;
+  padding-bottom: 20px; }
+
+.buscarPorFormato .btn-primary {
+  background-color: #e7adb8;
+  border-color: #e7adb8;
+  font-weight: 500;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 300px; }
+  .buscarPorFormato .btn-primary:hover {
+    background-color: #f8f6f6;
+    border-color: #e7adb8;
+    color: #e7adb8;
+    font-weight: 500; }
+
 .tyc {
   background-color: #ebe2e2;
   padding: 35px; }
@@ -125,6 +389,35 @@ footer {
   margin-top: 30px;
   margin-left: 310px; }
   .tyc .btn-primary:hover {
+    background-color: #f8f6f6;
+    border-color: #e7adb8;
+    color: #e7adb8;
+    font-weight: 500; }
+
+.contacto {
+  background-color: #ebe2e2;
+  padding: 35px;
+  justify-content: center; }
+  .contacto h1 {
+    color: grey;
+    text-align: center; }
+  .contacto h3 {
+    color: grey;
+    margin-bottom: 40px;
+    text-align: center; }
+  .contacto label {
+    color: gray;
+    margin-right: 10px; }
+  .contacto option {
+    color: gray; }
+  .contacto textarea {
+    height: 200px; }
+
+.btn-primary {
+  background-color: #e7adb8;
+  border-color: #e7adb8;
+  font-weight: 500; }
+  .btn-primary:hover {
     background-color: #f8f6f6;
     border-color: #e7adb8;
     color: #e7adb8;

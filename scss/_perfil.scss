@@ -1,0 +1,67 @@
+.miPerfil {
+    padding: 30px;
+    background-color: rgb(248, 232, 243);
+
+    h1 {
+        color: grey;
+        font-size: x-large;
+        margin-bottom: 20px;
+    }
+
+    h5 {
+        color: grey;
+        font-size: large;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+.perfil {
+
+    img {
+    width: 280px;
+    }
+
+    h3 {
+    color: grey;
+    border-color: grey;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-content:flex-end;
+    }
+}
+
+.list-group-flush {
+    background-color: rgb(248, 232, 243);
+}
+
+.list-group-item {
+    background-color: rgb(248, 232, 243);
+    margin-left: 20px;
+    padding-top: 23px;
+}
+
+.card {
+    background-color: rgb(248, 232, 243);
+}
+
+.labiales {
+    border-color: white;
+    border-style: solid;
+    border-width: 3px 0px 0px 0px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.labialesImg {
+    display: flex;
+    justify-content: space-between;
+
+    img {
+        width: 205px;
+    }
+}

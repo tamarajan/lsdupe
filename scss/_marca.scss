@@ -1,0 +1,95 @@
+.buscarPorMarca {
+    background-color: rgb(248, 232, 243);
+    padding: 10px;
+}
+
+.marcaCabecera {
+    h1 { 
+    text-align: center;
+    color: grey;
+    padding-top: 40px;
+    font-size: x-large;
+    display: flex;
+    align-self: center;
+    }
+}
+
+
+.marcaBuscador {
+    padding: 30px;
+    display: inline-block;
+
+    h2 {
+        color: rgb(141, 139, 139);
+        font-size: large;
+    }
+
+    h3 {
+        color: rgb(141, 139, 139);
+        font-size: medium;
+        font-weight: 500;
+        padding-bottom: 20px;
+    }
+}
+
+
+.buscador {
+    width: 300px;
+    height: 30px;
+    background-color: rgb(248, 245, 245);
+    border: 2px;
+    border-color: rgb(141, 139, 139);
+    border-style: solid;
+    display: inline-block;
+}
+
+.buscarPorMarca .btn-primary {
+    background-color: rgb(231, 173, 184);
+    border-color: rgb(231, 173, 184);
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-left: 300px;
+
+    &:hover {
+        background-color: rgb(248, 246, 246);
+        border-color: rgb(231, 173, 184);
+        color:rgb(231, 173, 184);
+        font-weight: 500;
+    }
+}
+
+
+
+.líneaBuscador {
+    padding: 30px;
+
+    h2 {
+        color: rgb(141, 139, 139);
+        font-size: large;
+    }
+
+    h3 {
+        color: rgb(141, 139, 139);
+        font-size: medium;
+        font-weight: 500;
+        padding-bottom: 20px;
+    }
+}
+
+
+.tonoBuscador {
+    padding: 30px;
+    display: inline-block;
+
+    h2 {
+        color: rgb(141, 139, 139);
+        font-size: large;
+    }
+
+    h3 {
+        color: rgb(141, 139, 139);
+        font-size: medium;
+        font-weight: 500;
+        padding-bottom: 20px;
+    }
+}

@@ -1,0 +1,56 @@
+.cardTono {
+    background-color: rgb(250, 219, 224);
+    display: flex;
+    justify-content: center;
+
+    a {
+        text-decoration: none;
+        color: rgb(224, 139, 153);
+        padding: 15px;
+        width: 45%;
+        margin-bottom: 10px;
+        justify-content: center;
+
+        h3 {
+            color: rgb(224, 139, 153);
+            font-weight: 600;
+            font-size: large;
+            text-align: center;
+        }
+
+        img {
+            width: 80%;
+            height: auto;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-left: 50px;
+            opacity: 1;
+        }
+
+        &:hover {
+            opacity: 0.5;
+            color: rgb(177, 162, 165);
+        }
+    }
+}
+
+
+
+.youtube {
+    padding: 30px;
+    background-color: rgb(236, 212, 216);
+
+    h1 {
+        text-align: center;
+        margin-left: 350px;
+        color: grey;
+        padding-bottom: 30px;
+        width: 650px;
+        font-size: x-large;
+        font-weight: 500;
+    }
+}
+
+iframe {
+    height: 500px;
+}
