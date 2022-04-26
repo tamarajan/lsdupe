@@ -4,23 +4,23 @@
     justify-content: center;
 
     h1 {
-        color: grey;
+        color: $colorTexto;
         text-align: center;
     }
 
     h3 {
-        color: grey;
+        color: $colorTexto;
         margin-bottom: 40px;
         text-align: center;
     }
 
     label {
-        color: gray;
+        color: $colorTexto;
         margin-right: 10px;
     }
 
     option {
-        color: gray;
+        color: $colorTexto;
     }
 
     textarea {

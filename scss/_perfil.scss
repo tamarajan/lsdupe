@@ -3,13 +3,13 @@
     background-color: rgb(248, 232, 243);
 
     h1 {
-        color: grey;
+        color: $colorTexto;
         font-size: x-large;
         margin-bottom: 20px;
     }
 
     h5 {
-        color: grey;
+        color: $colorTexto;
         font-size: large;
         margin-bottom: 20px;
     }
@@ -24,7 +24,7 @@
     }
 
     h3 {
-    color: grey;
+    color: $colorTexto;
     border-color: grey;
     border-style: solid;
     border-width: 0px 0px 1px 0px;

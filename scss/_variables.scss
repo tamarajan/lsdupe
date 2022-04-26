@@ -1,1 +1,64 @@
 $colorTexto: grey;
+
+
+
+$estiloBoton: (
+    color: rgb(231, 173, 184),
+    colorBorder: rgb(231, 173, 184),
+    fontWeight: 500,
+    marginB: 30px,
+    marginT:30px,
+    marginL: 300px
+);
+
+
+
+.btn-primary {
+    background-color: map-get($estiloBoton, color);
+    border-color: map-get($estiloBoton, colorBorder);
+    font-weight:map-get($estiloBoton, fontWeight);
+    margin-bottom: map-get($estiloBoton, marginB);
+    margin-top: map-get($estiloBoton, marginT);
+    margin-left: map-get($estiloBoton, marginL);
+}
+
+
+.tyc .btn-primary {
+    @extend .btn-primary;
+    margin-left: 0px;
+    width: auto;
+
+    &:hover {
+        background-color: rgb(248, 246, 246);
+        border-color: rgb(231, 173, 184);
+        color:rgb(231, 173, 184);
+        font-weight: 500;
+    }
+}
+
+@mixin h2Size($color, $size) {
+    color: $color;
+    font-size: $size;
+}
+
+@mixin h3Size($color, $size, $weight, $paddingBottom) {
+    color: $color;
+    font-size: $size;
+    font-weight: $weight;
+    padding-bottom: $paddingBottom;
+}
+
+.buscador {
+    padding: 30px;
+
+    h2 {
+    @include h2Size($colorTexto, large);
+    }
+
+    h3 {
+        @include h3Size($colorTexto, medium, 500, 20px);
+    }
+}
+
+
+

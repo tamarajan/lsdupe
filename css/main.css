@@ -1,8 +1,35 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
   font-family: 'Raleway', sans-serif; }
+
+.btn-primary, .tyc .btn-primary {
+  background-color: #e7adb8;
+  border-color: #e7adb8;
+  font-weight: 500;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 300px; }
+
+.tyc .btn-primary {
+  margin-left: 0px;
+  width: auto; }
+  .tyc .btn-primary:hover {
+    background-color: #f8f6f6;
+    border-color: #e7adb8;
+    color: #e7adb8;
+    font-weight: 500; }
+
+.buscador {
+  padding: 30px; }
+  .buscador h2 {
+    color: grey;
+    font-size: large; }
+  .buscador h3 {
+    color: grey;
+    font-size: medium;
+    font-weight: 500;
+    padding-bottom: 20px; }
 
 header {
   background-color: #ddd6d7;
@@ -237,7 +264,7 @@ iframe {
   background-color: #f8e8f3;
   padding: 10px; }
 
-.marcaCabecera h1 {
+.titleCabecera h1 {
   text-align: center;
   color: grey;
   padding-top: 40px;
@@ -245,115 +272,28 @@ iframe {
   display: flex;
   align-self: center; }
 
-.marcaBuscador {
-  padding: 30px;
-  display: inline-block; }
-  .marcaBuscador h2 {
-    color: #8d8b8b;
-    font-size: large; }
-  .marcaBuscador h3 {
-    color: #8d8b8b;
-    font-size: medium;
-    font-weight: 500;
-    padding-bottom: 20px; }
-
-.buscador {
-  width: 300px;
-  height: 30px;
-  background-color: #f8f5f5;
-  border: 2px;
-  border-color: #8d8b8b;
-  border-style: solid;
-  display: inline-block; }
-
-.buscarPorMarca .btn-primary {
-  background-color: #e7adb8;
+.btn-primary:hover {
+  background-color: #f8f6f6;
   border-color: #e7adb8;
-  font-weight: 500;
-  margin-bottom: 30px;
-  margin-left: 300px; }
-  .buscarPorMarca .btn-primary:hover {
-    background-color: #f8f6f6;
-    border-color: #e7adb8;
-    color: #e7adb8;
-    font-weight: 500; }
-
-.líneaBuscador {
-  padding: 30px; }
-  .líneaBuscador h2 {
-    color: #8d8b8b;
-    font-size: large; }
-  .líneaBuscador h3 {
-    color: #8d8b8b;
-    font-size: medium;
-    font-weight: 500;
-    padding-bottom: 20px; }
-
-.tonoBuscador {
-  padding: 30px;
-  display: inline-block; }
-  .tonoBuscador h2 {
-    color: #8d8b8b;
-    font-size: large; }
-  .tonoBuscador h3 {
-    color: #8d8b8b;
-    font-size: medium;
-    font-weight: 500;
-    padding-bottom: 20px; }
+  color: #e7adb8;
+  font-weight: 500; }
 
 .buscarPorFormato {
   background-color: #f8e8f3;
   padding: 20px; }
 
-.formatoCabecera h1 {
+.titleCabecera h1 {
   text-align: center;
   color: grey;
   padding-top: 40px;
   font-size: x-large;
   margin-bottom: 40px; }
 
-.menúFormato h2 {
-  color: #8d8b8b;
-  font-size: large; }
-
-.menúFormato h3 {
-  color: #8d8b8b;
-  font-size: medium;
-  font-weight: 500;
-  padding-bottom: 20px; }
-
-.menúAcabado h2 {
-  color: #8d8b8b;
-  font-size: large; }
-
-.menúAcabado h3 {
-  color: #8d8b8b;
-  font-size: medium;
-  font-weight: 500;
-  padding-bottom: 20px; }
-
-.menúTono h2 {
-  color: #8d8b8b;
-  font-size: large; }
-
-.menúTono h3 {
-  color: #8d8b8b;
-  font-size: medium;
-  font-weight: 500;
-  padding-bottom: 20px; }
-
-.buscarPorFormato .btn-primary {
-  background-color: #e7adb8;
+.btn-primary:hover {
+  background-color: #f8f6f6;
   border-color: #e7adb8;
-  font-weight: 500;
-  margin-bottom: 30px;
-  margin-top: 30px;
-  margin-left: 300px; }
-  .buscarPorFormato .btn-primary:hover {
-    background-color: #f8f6f6;
-    border-color: #e7adb8;
-    color: #e7adb8;
-    font-weight: 500; }
+  color: #e7adb8;
+  font-weight: 500; }
 
 .tyc {
   background-color: #ebe2e2;
@@ -382,18 +322,6 @@ iframe {
   color: grey;
   display: block; }
 
-.tyc .btn-primary {
-  background-color: #e7adb8;
-  border-color: #e7adb8;
-  font-weight: 500;
-  margin-top: 30px;
-  margin-left: 310px; }
-  .tyc .btn-primary:hover {
-    background-color: #f8f6f6;
-    border-color: #e7adb8;
-    color: #e7adb8;
-    font-weight: 500; }
-
 .contacto {
   background-color: #ebe2e2;
   padding: 35px;
@@ -406,14 +334,14 @@ iframe {
     margin-bottom: 40px;
     text-align: center; }
   .contacto label {
-    color: gray;
+    color: grey;
     margin-right: 10px; }
   .contacto option {
-    color: gray; }
+    color: grey; }
   .contacto textarea {
     height: 200px; }
 
-.btn-primary {
+.btn-primary, .tyc .btn-primary {
   background-color: #e7adb8;
   border-color: #e7adb8;
   font-weight: 500; }
