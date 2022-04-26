@@ -1,12 +1,25 @@
-.portadaImg {
-    padding: 0;
 
-    img {
-    width: 100%;
+.portadaImg {
+    background-image: url("../images/portada.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 20px;
+
+    h1 {
+        font-size:5em;
+        font-weight: 800;
+        padding-left: 20px;
+        margin-top: 20px;
     }
 
+    h2 {
+        font-size: 2.5em;
+        font-weight: 600;
+        margin-top: 30px;
+        line-height: 1em;
+        padding-left: 20px;
+    }
 }
-
 
 .nosotros {
     background-color: rgb(248, 232, 243);
@@ -16,15 +29,15 @@
 .nosotrosText {
     text-align: right;
     font-weight: 600;
-    font-size: x-large;
-    padding-right: 25px;
+    font-size: 1.9em;
+    padding: 25px;
     line-height: 60px;
     align-self: center;
 
 }
 
 .nosotrosImg {
-    padding: 25px;
+    padding: 30px;
     border-right: 3px;
     border-bottom: 0;
     border-top: 0;
@@ -37,7 +50,6 @@
 
 
 .card {
-    background-color: rgb(250, 219, 224);
     border: 0;
     border-radius: 0;
     display: flex;
@@ -45,7 +57,7 @@
 
     a {
         text-decoration: none;
-        color: white;
+        color: rgb(177, 162, 165);
         font-weight: 600;
         font-size: large;
         padding: 15px;
@@ -53,8 +65,8 @@
         margin-bottom: 10px;
 
         &:hover {
-            opacity: 0.5;
-            color: rgb(177, 162, 165);
+            opacity: 0.7;
+            color: rgb(219, 201, 205);
         }
 
         img {
