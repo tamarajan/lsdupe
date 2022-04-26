@@ -61,6 +61,40 @@
         }
     }
 
+    .youtube {
+        padding: 20px;
+
+        h1 {
+            text-align: center;
+            padding-bottom: 20px;
+
+            margin-left: 0;
+            width: auto;
+            font-size: large;
+            font-weight: 400;
+        }
+    }
+
+    .youtube {
+        h1 {
+            padding-bottom: 20px;
+            margin-left: 0;
+            width: auto;
+            font-weight: 500;
+        }
+    }
+
+    iframe {
+        height: 400px;
+    }
+
+    .titleCabecera {
+        h1 { 
+        padding-top: 40px;
+        font-size: large;
+        }
+    }
+
     .tyc .btn-primary {
         margin-left: 50px;
     }

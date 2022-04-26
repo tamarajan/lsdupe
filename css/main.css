@@ -3,7 +3,7 @@
   padding: 0;
   font-family: 'Raleway', sans-serif; }
 
-.btn-primary, .tyc .btn-primary {
+.btn-primary, .tyc .btn-primary, .contacto .btn-primary {
   background-color: #e7adb8;
   border-color: #e7adb8;
   font-weight: 500;
@@ -15,6 +15,14 @@
   margin-left: 0px;
   width: auto; }
   .tyc .btn-primary:hover {
+    background-color: #f8f6f6;
+    border-color: #e7adb8;
+    color: #e7adb8;
+    font-weight: 500; }
+
+.contacto .btn-primary {
+  margin-left: 0; }
+  .contacto .btn-primary:hover {
     background-color: #f8f6f6;
     border-color: #e7adb8;
     color: #e7adb8;
@@ -352,16 +360,6 @@ iframe {
   .contacto textarea {
     height: 200px; }
 
-.btn-primary, .tyc .btn-primary {
-  background-color: #e7adb8;
-  border-color: #e7adb8;
-  font-weight: 500; }
-  .btn-primary:hover {
-    background-color: #f8f6f6;
-    border-color: #e7adb8;
-    color: #e7adb8;
-    font-weight: 500; }
-
 @media screen and (max-width: 768px) {
   #navbarText .nav-item {
     padding: 5px;
@@ -397,9 +395,28 @@ iframe {
     footer ul a {
       line-height: 45px;
       padding-top: 20px; }
+  .youtube {
+    padding: 20px; }
+    .youtube h1 {
+      text-align: center;
+      padding-bottom: 20px;
+      margin-left: 0;
+      width: auto;
+      font-size: large;
+      font-weight: 400; }
+  .youtube h1 {
+    padding-bottom: 20px;
+    margin-left: 0;
+    width: auto;
+    font-weight: 500; }
+  iframe {
+    height: 400px; }
+  .titleCabecera h1 {
+    padding-top: 40px;
+    font-size: large; }
   .tyc .btn-primary {
     margin-left: 50px; }
-  .btn-primary, .tyc .btn-primary {
+  .btn-primary, .tyc .btn-primary, .contacto .btn-primary {
     background-color: #e7adb8;
     border-color: #e7adb8;
     font-weight: 500;
@@ -547,7 +564,7 @@ iframe {
   .titleCabecera h1 {
     padding-top: 40px;
     font-size: large; }
-  .btn-primary, .tyc .btn-primary {
+  .btn-primary, .tyc .btn-primary, .contacto .btn-primary {
     background-color: #e7adb8;
     border-color: #e7adb8;
     font-weight: 500;
