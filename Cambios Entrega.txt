@@ -1,0 +1,27 @@
+Declaré un map ($estiloBoton) y pliqué un map-get  a .btn-primary
+Usé extend para .btn-primary modificando margin-left y widht en /tyc
+Apliqué mixin con parámentros (h2Size y h3Size) a .buscador
+
+
+
+SEO:
+
+OPTIMIZACIÓN DE IMG:
+Cambié img de .portada por background-image + texto en /index
+Reduje peso de img de .nosotros en /index y de .miPerfil en /perfil
+
+KEYWORDS:
+Agregué keywords en todas las pages
+
+TÍTULOS:
+Todas las pages tenían el title correcto
+
+DESCRIPCIÓN:
+Agregué meta description en todas las pages
+
+ENCABEZADOS:
+Se agregó strong en .portada y .nosotros en /index
+
+
+
+
