@@ -489,7 +489,7 @@ iframe {
 @media screen and (max-width: 480px) {
   .navbar-brand img {
     margin: 5px;
-    width: 25%; }
+    width: 50%; }
   #navbarText .nav-link {
     padding: 5px;
     justify-content: right;
@@ -573,7 +573,7 @@ iframe {
     font-style: italic;
     padding-bottom: 15px; }
   footer img {
-    width: 55px; }
+    width: 100px; }
   .tyc .btn-primary {
     margin-left: 50px; }
   .miPerfil {
