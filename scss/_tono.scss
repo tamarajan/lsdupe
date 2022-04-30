@@ -54,3 +54,23 @@
 iframe {
     height: 500px;
 }
+
+
+
+.modal-content {
+    background-color: $modal-content-bg;
+}
+
+.modal-header {
+    border-color: $modal-content-border-color;
+    border-width: $modal-content-border-width;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.modal-footer {
+    border-width: 0;
+    justify-content: center;
+}

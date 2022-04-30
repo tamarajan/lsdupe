@@ -1,5 +1,5 @@
 header {
-    background-color: rgba(221, 214, 215, 1);
+    background-color: rgb(235, 229, 230);
     color: antiquewhite;
     position: sticky;
     top: 0;
@@ -17,16 +17,44 @@ header {
 
 
 
-
-#navbarText .nav-link {
-    list-style-type: none;
-    padding: 25px;
-    margin-top: 25px;
-    color: rgb(231, 173, 184);
-    font-weight: 600;
-    margin-right: 15px;
-}
-
 .navbar-brand {
     width: 150px;
+}
+
+.navbar-nav {
+
+    &:hover { 
+        font-weight: 500;
+        }
+
+}
+
+
+.dropdown-menu {
+    background-color: rgb(235, 229, 230);
+    border: 0;
+    padding: 0;
+}
+
+.dropdown-item {
+    border-bottom: 2px;
+    border-color: rgb(248, 244, 244);
+    border-style: solid;
+    
+    &:hover {
+    background-color:rgb(235, 229, 230);
+    color: white;
+    font-weight: 500;
+    }
+}
+
+#navbarNavDropdown ul li a {
+    padding-right: 20px;
+    color: rgb(182, 173, 174);
+
+    &:hover {
+        color: white;
+        font-weight: 500;
+        }
+    
 }

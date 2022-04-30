@@ -72,5 +72,15 @@ $estiloBoton: (
     }
 }
 
+$modal-content-bg: rgb(240, 227, 229);
 
+$modal-content-border-color: white;
+
+$modal-content-border-width: 2.5px;
+
+.modal-footer .btn-primary {
+    @extend .btn-primary;
+    margin: 0px;
+    margin-bottom: 20px;
+}
 

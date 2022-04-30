@@ -1,95 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="labial, labiales, dupes, encontrar, buscar, algoritmo, tono, marca, linea, seleccioná, paso, gamas, precios">
-    <meta name="description" content="En LSDupe podrás encontrar encontrar el tono de labial que querés en marcas de todas las gamas de precios y acabados posibles guiándonos por la marca, línea y tono del labial que ya conoces.">
+    <meta name="keywords"
+        content="labial, labiales, dupes, encontrar, buscar, algoritmo, tono, marca, linea, seleccioná, paso, gamas, precios">
+    <meta name="description"
+        content="En LSDupe podrás encontrar encontrar el tono de labial que querés en marcas de todas las gamas de precios y acabados posibles guiándonos por la marca, línea y tono del labial que ya conoces.">
     <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <title>LSDupe - Buscar por Marca</title>
 </head>
+
 <body>
 
     <header class="row">
         <nav class="navbar navbar-expand-lg navbar-light header">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" alt="Logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse listaMenu" id="navbarText">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="../index.html">Encontrar mi labial</a>
+
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Encontrar Mi Labial
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="../pages/tono.html">Buscar por tono</a></li>
+                                <li><a class="dropdown-item" href="../pages/marca.html">Buscar por marca</a></li>
+                                <li><a class="dropdown-item" href="../pages/formatoyacabado.html">Buscar por formato y acabado</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../pages/perfil.html">Mi perfil</a>
+                            <a class="nav-link" href="../pages/perfil.html">Mi Perfil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/tyc.html">Términos y Condiciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
+
             </div>
         </nav>
     </header>
 
     <div class="row buscarPorMarca">
-        
-            <div class="col-12 titleCabecera">
-                <h1> Aquí podrás encontrar encontrar el tono de labial que querés en marcas de todas las gamas de precios y acabados posibles guiándonos por la marca, línea y tono del labial que ya conoces.</h1>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 buscador">
-                <h2>Paso 1:</h2>
-                <h3>Seleccioná la marca del labial que estás buscando. </h3>
-                <select class="form-select" aria-label="Default select example">
-                    <option selected>Seleccionar</option>
-                    <option value="1">Marca A</option>
-                    <option value="2">Marca B</option>
-                    <option value="3">Marca C</option>
-                    <option value="4">Marca D</option>
-                    <option value="5">Marca E</option>
-                    <option value="6">Marca F</option>
-                    <option value="7">Marca G</option>
-                    <option value="8">Marca H</option>
-                </select>
-            </div>
 
-            <div class="col-lg-4 col-md-4 col-sm-12 buscador">
-                <h2>Paso 2:</h2>
-                <h3>Seleccioná la línea del tono que te interesa. </h3>
-                <select class="form-select" aria-label="Default select example">
-                    <option selected>Seleccionar</option>
-                    <option value="1">Línea A</option>
-                    <option value="2">Línea B</option>
-                    <option value="3">Línea C</option>
-                    <option value="4">Línea D</option>
-                    <option value="5">Línea E</option>
-                </select>
-            </div>
-            
+        <div class="col-12 titleCabecera">
+            <h1> Aquí podrás encontrar encontrar el tono de labial que querés en marcas de todas las gamas de precios y
+                acabados posibles guiándonos por la marca, línea y tono del labial que ya conoces.</h1>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 buscador">
+            <h2>Paso 1:</h2>
+            <h3>Seleccioná la marca del labial que estás buscando. </h3>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Seleccionar</option>
+                <option value="1">Marca A</option>
+                <option value="2">Marca B</option>
+                <option value="3">Marca C</option>
+                <option value="4">Marca D</option>
+                <option value="5">Marca E</option>
+                <option value="6">Marca F</option>
+                <option value="7">Marca G</option>
+                <option value="8">Marca H</option>
+            </select>
+        </div>
 
-            <div class="col-lg-4 col-md-4 col-sm-12 buscador">
-                <h2>Paso 3:</h2>
-                <h3>Finalmente, seleccioná el tono que buscas. </h3>
-                <select class="form-select" aria-label="Default select example">
-                    <option selected>Seleccionar</option>
-                    <option value="1">Tono A</option>
-                    <option value="2">Tono B</option>
-                    <option value="3">Tono C</option>
-                    <option value="4">Tono D</option>
-                    <option value="5">Tono E</option>
-                    <option value="6">Tono F</option>
-                    <option value="7">Tono G</option>
-                    <option value="8">Tono H</option>
-                </select>
-            </div>    
-            
-        <button type="submit" class="col-lg-6 col-md-6 col-sm-12 btn btn-primary">Encontrar los dupes del labial</button>
+        <div class="col-lg-4 col-md-4 col-sm-12 buscador">
+            <h2>Paso 2:</h2>
+            <h3>Seleccioná la línea del tono que te interesa. </h3>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Seleccionar</option>
+                <option value="1">Línea A</option>
+                <option value="2">Línea B</option>
+                <option value="3">Línea C</option>
+                <option value="4">Línea D</option>
+                <option value="5">Línea E</option>
+            </select>
+        </div>
+
+
+        <div class="col-lg-4 col-md-4 col-sm-12 buscador">
+            <h2>Paso 3:</h2>
+            <h3>Finalmente, seleccioná el tono que buscas. </h3>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Seleccionar</option>
+                <option value="1">Tono A</option>
+                <option value="2">Tono B</option>
+                <option value="3">Tono C</option>
+                <option value="4">Tono D</option>
+                <option value="5">Tono E</option>
+                <option value="6">Tono F</option>
+                <option value="7">Tono G</option>
+                <option value="8">Tono H</option>
+            </select>
+        </div>
+
+        <button type="submit" class="col-lg-6 col-md-6 col-sm-12 btn btn-primary" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">Encontrar los dupes del labial</button>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">¡Próximamente!</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Próximamente podrás ver aquí los resultados del tono de labial que querés en marcas de todas las gamas de precios y acabados posibles guiándonos por la marca, línea y tono del labial que ya conoces.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
 
@@ -124,6 +164,8 @@
     </footer>
 
     <script src="../js/bootstrap.min.js"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>$(document).ready(function () { $("a[title|='Hosted on free web hosting 000webhost.com. Host your own website for FREE.']").css("display", "none"); $("img[alt|='www.000webhost.com']").css("display", "none"); });</script>
 </body>
+
 </html>

@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="labial, labiales, dupe, encontrar, buscar, algoritmo, tono, marca, formato, acabado, precio, gama">
-    <meta name="description" content="En LSDupe contamos con un sofisticado algoritmo patentado para que puedas encontrar el tono de labial que querés en marcas de todas las gamas de precios y acabados posibles.">
+    <meta name="keywords"
+        content="labial, labiales, dupe, encontrar, buscar, algoritmo, tono, marca, formato, acabado, precio, gama">
+    <meta name="description"
+        content="En LSDupe contamos con un sofisticado algoritmo patentado para que puedas encontrar el tono de labial que querés en marcas de todas las gamas de precios y acabados posibles.">
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/main.css">
@@ -24,30 +26,47 @@
         <nav class="navbar navbar-expand-lg navbar-light header">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html"><img src="./images/logo.png" alt="Logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse listaMenu" id="navbarText">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#buscar">Encontrar mi labial</a>
+
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Encontrar Mi Labial
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="./pages/tono.html">Buscar por tono</a></li>
+                                <li><a class="dropdown-item" href="./pages/marca.html">Buscar por marca</a></li>
+                                <li><a class="dropdown-item" href="./pages/formatoyacabado.html">Buscar por formato y acabado</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/perfil.html">Mi perfil</a>
+                            <a class="nav-link" href="./pages/perfil.html">Mi Perfil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/tyc.html">Términos y Condiciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
+
             </div>
         </nav>
     </header>
 
     <div class="row portada">
         <div class="col-12 portadaImg">
-            <strong><h1>Encontrá</h1>
-            <h1>el labial</h1>
-            <h1>perfecto</h1>
-            <h1>para vos</h1></strong>
+            <strong>
+                <h1>Encontrá</h1>
+                <h1>el labial</h1>
+                <h1>perfecto</h1>
+                <h1>para vos</h1>
+            </strong>
             <h2>Más de <strong> 3.500 marcas</strong></h2>
             <h2>en mas de <strong>12.000 tonos</strong></h2>
         </div>
@@ -55,7 +74,11 @@
     <div class="row nosotros">
         <img src="./images/nosotros.png" alt="Nuestro algoritmo patentado"
             class="col-lg-4 col-md-4 col-sm-12 nosotrosImg animate__animated animate__backInLeft">
-        <p class="col-lg-8 col-md-8 col-sm-12 nosotrosText animate__animated animate__backInRight"><strong>LSDupe</strong>  utiliza datos de más de <strong>46 millones de usuarios</strong> de labiales <strong>en todo el mundo</strong> y un <strong>sofisticado algoritmo patentado</strong> para que puedas encontrar <strong> el tono </strong>de labial que querés en marcas de <strong>todas las gamas de precios y acabados posibles.</strong>
+        <p class="col-lg-8 col-md-8 col-sm-12 nosotrosText animate__animated animate__backInRight">
+            <strong>LSDupe</strong> utiliza datos de más de <strong>46 millones de usuarios</strong> de labiales
+            <strong>en todo el mundo</strong> y un <strong>sofisticado algoritmo patentado</strong> para que puedas
+            encontrar <strong> el tono </strong>de labial que querés en marcas de <strong>todas las gamas de precios y
+                acabados posibles.</strong>
         </p>
     </div>
     <div id="buscar"></div>
@@ -116,6 +139,8 @@
     </footer>
 
     <script src="./js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>$(document).ready(function () { $("a[title|='Hosted on free web hosting 000webhost.com. Host your own website for FREE.']").css("display", "none"); $("img[alt|='www.000webhost.com']").css("display", "none"); });</script>
 </body>
 
 </html>

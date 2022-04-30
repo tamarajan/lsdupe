@@ -24,36 +24,88 @@
         <nav class="navbar navbar-expand-lg navbar-light header">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" alt="Logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse listaMenu" id="navbarText">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="../index.html">Encontrar mi labial</a>
+
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Encontrar Mi Labial
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="../pages/tono.html">Buscar por tono</a></li>
+                                <li><a class="dropdown-item" href="../pages/marca.html">Buscar por marca</a></li>
+                                <li><a class="dropdown-item" href="../pages/formatoyacabado.html">Buscar por formato y acabado</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../pages/perfil.html">Mi perfil</a>
+                            <a class="nav-link" href="../pages/perfil.html">Mi Perfil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/tyc.html">Términos y Condiciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
+
             </div>
         </nav>
     </header>
 
     <div class="row cardTono">
         <div class="col-lg-6 col-md-6 col-sm-12">
-            <a href="#">
+            <a href="#" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">
                 <img src="../images/subir-img.jpg" alt="Subir la imagen">
-                <h3>¿Tenés una imagen de tu tono ideal? ¡Subila!</h3>
+                <h3>¿Tenés una imagen de tu tono ideal?</h3>
+                <h3>¡Subila!</h3>
             </a>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">¡Próximamente!</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Próximamente podrás subir la imagen de tu tono ideal aquí. 
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
-            <a href="#">
+            <a href="#" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">
                 <img src="../images/rueda-img.jpg" alt="Seleccionar el color aquí">
-                <h3>¿Sabés el tono que querés pero no tenés la imagen? ¡Encontralo acá!</h3>
+                <h3>¿Sabés el tono que querés pero no tenés la imagen?</h3>
+                <h3>¡Encontralo acá!</h3>
             </a>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">¡Próximamente!</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Próximamente podrás encontrar tu tono ideal aquí. 
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -130,7 +182,7 @@
     </footer>
 
     <script src="../js/bootstrap.min.js"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script>$(document).ready(function(){$("a[title|='Hosted on free web hosting 000webhost.com. Host your own website for FREE.']").css("display", "none");$("img[alt|='www.000webhost.com']").css("display", "none");});</script>
 </body>
 
 </html>
