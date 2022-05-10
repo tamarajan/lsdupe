@@ -239,6 +239,13 @@ footer {
   background-color: #f8e8f3;
   margin-left: 20px;
   padding-top: 23px; }
+  .list-group-item a {
+    font-size: medium;
+    font-style: oblique;
+    font-weight: 300; }
+    .list-group-item a:hover {
+      color: grey;
+      font-weight: 500; }
 
 .card {
   background-color: #f8e8f3; }
@@ -344,6 +351,12 @@ iframe {
   border-width: 0;
   justify-content: center; }
 
+.btn-check:focus + .btn-primary, .tyc .btn-check:focus + .btn-primary, .contacto .btn-check:focus + .btn-primary, .modal-footer .btn-check:focus + .btn-primary, .btn-primary:focus {
+  color: #e7adb8;
+  background-color: #f8f6f6;
+  border-color: #e7adb8;
+  box-shadow: none; }
+
 .buscarPorFormato {
   background-color: #f8e8f3;
   padding: 20px; }
@@ -374,6 +387,12 @@ iframe {
 .modal-footer {
   border-width: 0;
   justify-content: center; }
+
+.btn-check:focus + .btn-primary, .tyc .btn-check:focus + .btn-primary, .contacto .btn-check:focus + .btn-primary, .modal-footer .btn-check:focus + .btn-primary, .btn-primary:focus {
+  color: #e7adb8;
+  background-color: #f8f6f6;
+  border-color: #e7adb8;
+  box-shadow: none; }
 
 .tyc {
   background-color: #ebe2e2;
@@ -540,7 +559,7 @@ iframe {
         border-style: solid;
         border-color: #fcfafa; }
   .rrss {
-    border-color: #fcfafa;
+    color: #fcfafa;
     border-right: 0;
     border-bottom: 1px;
     border-top: 1px;
@@ -593,6 +612,8 @@ iframe {
     padding-top: 15px;
     font-size: small;
     text-align: center; }
+    .list-group-item a {
+      font-size: small; }
   .labiales h1 {
     margin-bottom: 20px; }
   .card h5 {
